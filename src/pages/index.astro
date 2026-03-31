@@ -1,0 +1,35 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="printablestarcharts"
+  description="Static scaffold for a print-first star-chart generator."
+>
+  <section class="hero container">
+    <p class="eyebrow">Main worktree scaffold</p>
+    <h1>Field-first project setup for printablestarcharts.</h1>
+    <p class="lede">
+      This repo is initialized around the planned product shape for printable
+      constellation charts and a generated planisphere book, but no chart
+      pipeline or generator UI has been implemented yet.
+    </p>
+  </section>
+</SiteLayout>
+
+<style>
+  .hero {
+    padding: 6rem 0 4rem;
+  }
+
+  .eyebrow {
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 1rem;
+  }
+
+  .lede {
+    max-width: 44rem;
+  }
+</style>

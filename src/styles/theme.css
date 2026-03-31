@@ -1,0 +1,14 @@
+:root {
+  --bg: #fffaf4;
+  --bg-elevated: #ffffff;
+  --text: #151515;
+  --text-muted: #5b5b5b;
+  --border: #ddd3c8;
+  --accent: #b42121;
+  --accent-soft: #f7dede;
+  --night-bg: #050505;
+  --night-red: #e24b4b;
+  --font-display: "Manrope", "Helvetica Neue", sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --content-width: 70rem;
+}

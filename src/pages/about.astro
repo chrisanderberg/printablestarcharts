@@ -1,0 +1,42 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { REPO_ROOT } from '../lib/github';
+---
+
+<SiteLayout
+  title="About | printablestarcharts"
+  description="Project framing and intended product shape for printablestarcharts."
+>
+  <section class="container prose-block">
+    <p class="eyebrow">/ about</p>
+    <h1>About printablestarcharts</h1>
+    <p>
+      printablestarcharts is intended to generate highly readable astronomy
+      charts that still work in the field under red light, with printable PDFs
+      as the primary output.
+    </p>
+    <p>
+      The current repo is only a scaffold. It establishes the main worktree,
+      Astro structure, and product docs so future implementation threads can
+      build the actual chart-generation experience without redoing setup.
+    </p>
+    <p>
+      Planned requirements live in the root docs, and source will eventually
+      live on <a href={REPO_ROOT} target="_blank" rel="noreferrer">GitHub</a>.
+    </p>
+  </section>
+</SiteLayout>
+
+<style>
+  .prose-block {
+    padding: 5rem 0;
+    max-width: 46rem;
+  }
+
+  .eyebrow {
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 1rem;
+  }
+</style>
