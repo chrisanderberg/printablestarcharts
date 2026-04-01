@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "tri",
+  "iauCode": "Tri",
+  "slug": "triangle",
+  "name": "Triangle",
+  "title": "Triangle",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 2.18,
+    "centerDecDeg": 31.48,
+    "radiusDeg": 13.9
+  },
+  "counts": {
+    "stars": 18,
+    "messier": 1,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/tri/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/tri/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m33",
+      "label": "M33",
+      "type": "messier"
+    }
+  ]
+}

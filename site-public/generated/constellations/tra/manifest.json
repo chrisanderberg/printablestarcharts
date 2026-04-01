@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "tra",
+  "iauCode": "TrA",
+  "slug": "southern-triangle",
+  "name": "Southern Triangle",
+  "title": "Southern Triangle",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -7.92,
+    "centerDecDeg": -65.39,
+    "radiusDeg": 13.1
+  },
+  "counts": {
+    "stars": 21,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/tra/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/tra/thumb.svg"
+  },
+  "includedTargets": []
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cnc",
+  "iauCode": "Cnc",
+  "slug": "crab",
+  "name": "Crab",
+  "title": "Crab",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 8.65,
+    "centerDecDeg": 19.81,
+    "radiusDeg": 21.3
+  },
+  "counts": {
+    "stars": 49,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cnc/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cnc/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m44",
+      "label": "M44",
+      "type": "messier"
+    },
+    {
+      "id": "m67",
+      "label": "M67",
+      "type": "messier"
+    }
+  ]
+}

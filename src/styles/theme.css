@@ -1,14 +1,37 @@
 :root {
-  --bg: #fffaf4;
-  --bg-elevated: #ffffff;
-  --text: #151515;
-  --text-muted: #5b5b5b;
-  --border: #ddd3c8;
-  --accent: #b42121;
-  --accent-soft: #f7dede;
-  --night-bg: #050505;
-  --night-red: #e24b4b;
-  --font-display: "Manrope", "Helvetica Neue", sans-serif;
-  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
-  --content-width: 70rem;
+  --paper: #fcfaf5;
+  --paper-strong: #fffefb;
+  --paper-muted: #f3eee4;
+  --ink: #161210;
+  --ink-soft: #4f4337;
+  --line: #d5cab9;
+  --line-strong: #a99680;
+  --accent: #b21d18;
+  --accent-strong: #89110d;
+  --accent-wash: rgba(178, 29, 24, 0.08);
+  --shadow: 0 20px 60px rgba(34, 24, 15, 0.12);
+  --glow: 0 0 0 1px rgba(178, 29, 24, 0.12);
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --font-body: "Avenir Next", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+  --content-width: 76rem;
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 999px;
+}
+
+html[data-theme='night'] {
+  --paper: #020202;
+  --paper-strong: #040404;
+  --paper-muted: #070707;
+  --ink: #ff5a54;
+  --ink-soft: rgba(255, 90, 84, 0.78);
+  --line: rgba(255, 90, 84, 0.26);
+  --line-strong: rgba(255, 90, 84, 0.6);
+  --accent: #ff4d47;
+  --accent-strong: #ff6a65;
+  --accent-wash: rgba(255, 77, 71, 0.16);
+  --shadow: 0 22px 60px rgba(255, 77, 71, 0.08);
+  --glow: 0 0 0 1px rgba(255, 77, 71, 0.22);
 }

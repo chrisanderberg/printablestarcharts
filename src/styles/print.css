@@ -1,0 +1,20 @@
+@media print {
+  .site-header,
+  .button-row,
+  .night-toggle,
+  .browser-controls,
+  .target-input__row,
+  .planisphere-actions {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .hero,
+  .workbench,
+  .about {
+    padding: 0;
+  }
+}

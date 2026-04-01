@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "crv",
+  "iauCode": "Crv",
+  "slug": "crow",
+  "name": "Crow",
+  "title": "Crow",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -11.56,
+    "centerDecDeg": -18.44,
+    "radiusDeg": 14.8
+  },
+  "counts": {
+    "stars": 18,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/crv/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/crv/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m68",
+      "label": "M68",
+      "type": "messier"
+    },
+    {
+      "id": "m104",
+      "label": "M104",
+      "type": "messier"
+    }
+  ]
+}

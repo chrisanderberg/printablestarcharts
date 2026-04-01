@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "del",
+  "iauCode": "Del",
+  "slug": "dolphin",
+  "name": "Dolphin",
+  "title": "Dolphin",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -3.31,
+    "centerDecDeg": 11.67,
+    "radiusDeg": 17.3
+  },
+  "counts": {
+    "stars": 19,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/del/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/del/thumb.svg"
+  },
+  "includedTargets": []
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "ara",
+  "iauCode": "Ara",
+  "slug": "altar",
+  "name": "Altar",
+  "title": "Altar",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -6.63,
+    "centerDecDeg": -56.59,
+    "radiusDeg": 19.1
+  },
+  "counts": {
+    "stars": 43,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/ara/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/ara/thumb.svg"
+  },
+  "includedTargets": []
+}

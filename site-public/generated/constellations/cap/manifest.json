@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cap",
+  "iauCode": "Cap",
+  "slug": "capricorn",
+  "name": "Capricorn",
+  "title": "Capricorn",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -2.95,
+    "centerDecDeg": -18.02,
+    "radiusDeg": 17.6
+  },
+  "counts": {
+    "stars": 48,
+    "messier": 4,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cap/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cap/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m30",
+      "label": "M30",
+      "type": "messier"
+    },
+    {
+      "id": "m75",
+      "label": "M75",
+      "type": "messier"
+    },
+    {
+      "id": "m72",
+      "label": "M72",
+      "type": "messier"
+    },
+    {
+      "id": "m73",
+      "label": "M73",
+      "type": "messier"
+    }
+  ]
+}

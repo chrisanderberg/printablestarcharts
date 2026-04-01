@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="244.5203309965448" viewBox="0 0 760 244.5203309965448">
+  <rect width="760" height="244.5203309965448" rx="28" fill="#fffdf8"/>
+  <rect x="16" y="16" width="728" height="212.5203309965448" rx="20" fill="none" stroke="#171412" stroke-width="1.2"/>
+  <path d="M 214.9 171.7 L 619.7 168.9 L 612.8 88.3 L 490.6 89.0 L 489.8 72.8 L 202.3 74.9 L 140.3 75.4 L 145.3 131.9 L 207.3 131.4 L 214.9 171.7 Z" fill="none" stroke="#968774" stroke-width="1.15" stroke-dasharray="4 6"/>
+  <circle cx="481.1" cy="73.6" r="3.67" fill="#11100f"/>
+  <circle cx="108.5" cy="67.1" r="3.15" fill="#11100f"/>
+  <circle cx="108.7" cy="71.7" r="2.88" fill="#11100f"/>
+  <circle cx="521.0" cy="124.5" r="2.82" fill="#11100f"/>
+  <circle cx="446.1" cy="124.4" r="2.74" fill="#11100f"/>
+  <circle cx="120.5" cy="94.8" r="2.71" fill="#11100f"/>
+  <circle cx="150.7" cy="116.6" r="2.71" fill="#11100f"/>
+  <circle cx="541.4" cy="82.9" r="2.67" fill="#11100f"/>
+  <circle cx="637.8" cy="184.7" r="2.64" fill="#11100f"/>
+  <circle cx="429.3" cy="160.6" r="2.50" fill="#11100f"/>
+  <circle cx="269.1" cy="152.6" r="2.47" fill="#11100f"/>
+  <circle cx="55.4" cy="54.4" r="2.45" fill="#11100f"/>
+  <circle cx="606.7" cy="120.0" r="2.36" fill="#11100f"/>
+  <circle cx="288.1" cy="102.9" r="2.35" fill="#11100f"/>
+  <circle cx="197.9" cy="110.9" r="2.29" fill="#11100f"/>
+  <circle cx="228.2" cy="99.2" r="2.28" fill="#11100f"/>
+  <circle cx="593.1" cy="55.9" r="2.25" fill="#11100f"/>
+  <circle cx="297.9" cy="130.1" r="2.25" fill="#11100f"/>
+  <circle cx="671.7" cy="64.2" r="2.25" fill="#11100f"/>
+  <circle cx="245.0" cy="103.4" r="2.11" fill="#11100f"/>
+  <circle cx="683.0" cy="73.9" r="2.08" fill="#11100f"/>
+  <circle cx="501.6" cy="94.3" r="2.04" fill="#11100f"/>
+  <circle cx="101.7" cy="133.0" r="2.04" fill="#11100f"/>
+  <circle cx="274.1" cy="117.4" r="2.03" fill="#11100f"/>
+  <circle cx="505.8" cy="99.4" r="1.98" fill="#11100f"/>
+  <circle cx="431.7" cy="87.8" r="1.93" fill="#11100f"/>
+  <circle cx="351.4" cy="61.2" r="1.88" fill="#11100f"/>
+  <circle cx="579.6" cy="145.6" r="1.87" fill="#11100f"/>
+  <circle cx="510.8" cy="94.1" r="1.84" fill="#11100f"/>
+  <circle cx="561.8" cy="182.7" r="1.82" fill="#11100f"/>
+  <circle cx="301.3" cy="92.2" r="1.82" fill="#11100f"/>
+  <circle cx="514.8" cy="127.5" r="1.82" fill="#11100f"/>
+  <circle cx="562.9" cy="62.8" r="1.80" fill="#11100f"/>
+  <circle cx="422.1" cy="85.3" r="1.76" fill="#11100f"/>
+  <circle cx="135.0" cy="61.6" r="1.75" fill="#11100f"/>
+  <circle cx="62.8" cy="54.8" r="1.74" fill="#11100f"/>
+  <circle cx="324.6" cy="136.5" r="1.72" fill="#11100f"/>
+  <circle cx="432.0" cy="128.5" r="1.71" fill="#11100f"/>
+  <circle cx="403.4" cy="71.6" r="1.71" fill="#11100f"/>
+  <circle cx="215.6" cy="69.8" r="1.69" fill="#11100f"/>
+  <circle cx="101.9" cy="145.6" r="1.67" fill="#11100f"/>
+  <circle cx="406.3" cy="158.4" r="1.67" fill="#11100f"/>
+  <circle cx="409.0" cy="86.8" r="1.66" fill="#11100f"/>
+  <circle cx="530.0" cy="138.4" r="1.66" fill="#11100f"/>
+  <circle cx="201.8" cy="101.9" r="1.63" fill="#11100f"/>
+  <circle cx="229.0" cy="172.1" r="1.63" fill="#11100f"/>
+  <circle cx="611.5" cy="142.3" r="1.63" fill="#11100f"/>
+  <circle cx="339.7" cy="127.0" r="1.60" fill="#11100f"/>
+  <circle cx="657.0" cy="143.0" r="1.60" fill="#11100f"/>
+  <circle cx="212.6" cy="107.6" r="1.56" fill="#11100f"/>
+  <circle cx="655.4" cy="116.5" r="1.54" fill="#11100f"/>
+  <circle cx="688.1" cy="89.2" r="1.54" fill="#11100f"/>
+  <circle cx="56.5" cy="62.1" r="1.53" fill="#11100f"/>
+  <circle cx="534.8" cy="104.2" r="1.51" fill="#11100f"/>
+  <circle cx="571.4" cy="162.0" r="1.51" fill="#11100f"/>
+  <circle cx="160.5" cy="56.8" r="1.51" fill="#11100f"/>
+  <circle cx="105.9" cy="106.6" r="1.50" fill="#11100f"/>
+  <circle cx="361.6" cy="60.7" r="1.49" fill="#11100f"/>
+  <circle cx="280.7" cy="118.5" r="1.49" fill="#11100f"/>
+  <circle cx="65.4" cy="78.9" r="1.48" fill="#11100f"/>
+  <circle cx="584.6" cy="54.9" r="1.48" fill="#11100f"/>
+  <circle cx="242.1" cy="77.8" r="1.47" fill="#11100f"/>
+  <circle cx="425.4" cy="140.5" r="1.47" fill="#11100f"/>
+  <circle cx="428.9" cy="128.5" r="1.46" fill="#11100f"/>
+  <circle cx="569.7" cy="112.3" r="1.46" fill="#11100f"/>
+  <circle cx="104.0" cy="72.5" r="1.46" fill="#11100f"/>
+  <circle cx="106.5" cy="94.8" r="1.46" fill="#11100f"/>
+  <circle cx="270.3" cy="115.6" r="1.46" fill="#11100f"/>
+  <circle cx="372.1" cy="54.5" r="1.46" fill="#11100f"/>
+  <circle cx="412.9" cy="64.1" r="1.46" fill="#11100f"/>
+  <circle cx="162.8" cy="92.1" r="1.45" fill="#11100f"/>
+  <circle cx="55.4" cy="141.0" r="1.44" fill="#11100f"/>
+  <circle cx="103.6" cy="80.5" r="1.40" fill="#11100f"/>
+  <circle cx="203.5" cy="176.6" r="1.40" fill="#11100f"/>
+  <circle cx="206.2" cy="164.7" r="1.40" fill="#11100f"/>
+  <circle cx="83.7" cy="129.9" r="1.40" fill="#11100f"/>
+  <circle cx="248.2" cy="166.3" r="1.39" fill="#11100f"/>
+  <circle cx="311.4" cy="138.3" r="1.38" fill="#11100f"/>
+  <circle cx="666.1" cy="101.3" r="1.37" fill="#11100f"/>
+  <circle cx="96.0" cy="89.5" r="1.36" fill="#11100f"/>
+  <circle cx="115.5" cy="65.2" r="1.36" fill="#11100f"/>
+  <circle cx="682.4" cy="177.8" r="1.35" fill="#11100f"/>
+  <circle cx="149.1" cy="78.0" r="1.34" fill="#11100f"/>
+  <circle cx="304.3" cy="126.9" r="1.33" fill="#11100f"/>
+  <circle cx="368.6" cy="136.5" r="1.33" fill="#11100f"/>
+  <circle cx="121.1" cy="74.6" r="1.33" fill="#11100f"/>
+  <circle cx="515.0" cy="178.2" r="1.33" fill="#11100f"/>
+  
+  
+  <text x="488.1" y="67.6" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">alpha</text>
+  <text x="528.0" y="118.5" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">beta</text>
+  <text x="453.1" y="118.4" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">delta</text>
+  <text x="436.3" y="154.6" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">epsilon</text>
+  <text x="613.7" y="114.0" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">gamma</text>
+  <text x="24" y="42" fill="#171412" font-family="Georgia, serif" font-size="26" font-weight="700">Peacock</text>
+  <text x="24" y="64" fill="#695a4d" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.3">Pav · stars, IAU boundaries, Messier objects</text>
+</svg>

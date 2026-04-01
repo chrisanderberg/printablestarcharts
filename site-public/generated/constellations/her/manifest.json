@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "her",
+  "iauCode": "Her",
+  "slug": "hercules",
+  "name": "Hercules",
+  "title": "Hercules",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -6.6,
+    "centerDecDeg": 27,
+    "radiusDeg": 32.3
+  },
+  "counts": {
+    "stars": 135,
+    "messier": 8,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/her/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/her/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m5",
+      "label": "M5",
+      "type": "messier"
+    },
+    {
+      "id": "m13",
+      "label": "M13",
+      "type": "messier"
+    },
+    {
+      "id": "m92",
+      "label": "M92",
+      "type": "messier"
+    },
+    {
+      "id": "m10",
+      "label": "M10",
+      "type": "messier"
+    },
+    {
+      "id": "m12",
+      "label": "M12",
+      "type": "messier"
+    },
+    {
+      "id": "m14",
+      "label": "M14",
+      "type": "messier"
+    },
+    {
+      "id": "m56",
+      "label": "M56",
+      "type": "messier"
+    },
+    {
+      "id": "m57",
+      "label": "M57",
+      "type": "messier"
+    }
+  ]
+}

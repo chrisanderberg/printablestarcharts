@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "for",
+  "iauCode": "For",
+  "slug": "furnace",
+  "name": "Furnace",
+  "title": "Furnace",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 2.8,
+    "centerDecDeg": -31.63,
+    "radiusDeg": 15.9
+  },
+  "counts": {
+    "stars": 25,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/for/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/for/thumb.svg"
+  },
+  "includedTargets": []
+}

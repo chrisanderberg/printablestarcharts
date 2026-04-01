@@ -1,42 +1,67 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
-import { REPO_ROOT } from '../lib/github';
+import { loadConstellations } from '../lib/artifacts/loadConstellations';
+import { loadPlanispheres } from '../lib/artifacts/loadPlanispheres';
+import { loadTargets } from '../lib/artifacts/loadTargets';
+
+const constellations = await loadConstellations();
+const planispheres = await loadPlanispheres();
+const canonicalTargets = await loadTargets();
+const latitudeBandCount = new Set(planispheres.map((entry) => entry.latitudeBand)).size;
 ---
 
 <SiteLayout
   title="About | printablestarcharts"
-  description="Project framing and intended product shape for printablestarcharts."
+  description="About the print-first, field-practical product model behind printablestarcharts."
 >
-  <section class="container prose-block">
-    <p class="eyebrow">/ about</p>
-    <h1>About printablestarcharts</h1>
-    <p>
-      printablestarcharts is intended to generate highly readable astronomy
-      charts that still work in the field under red light, with printable PDFs
-      as the primary output.
-    </p>
-    <p>
-      The current repo is only a scaffold. It establishes the main worktree,
-      Astro structure, and product docs so future implementation threads can
-      build the actual chart-generation experience without redoing setup.
-    </p>
-    <p>
-      Planned requirements live in the root docs, and source will eventually
-      live on <a href={REPO_ROOT} target="_blank" rel="noreferrer">GitHub</a>.
-    </p>
+  <section class="about">
+    <div class="container">
+      <div class="about-hero">
+        <span class="section-label">About</span>
+        <h1>Paper-first astronomy, with a strict red-light fallback.</h1>
+        <p class="muted">
+          printablestarcharts exists for observers who would rather carry reliable paper into the field than wrestle with glare, battery life, dew, or distracting full-screen sky apps.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-section">
+          <h2>What the MVP includes</h2>
+          <p>{constellations.length} printable constellation charts, planisphere books across {latitudeBandCount} latitude bands, and a canonical Messier target catalog with forced-target compatibility checks.</p>
+        </article>
+        <article class="about-section">
+          <h2>What it excludes</h2>
+          <p>Sun, moon, planets, eyepiece views, weather, coordinate grids, and any raw catalog ETL logic living in the website itself.</p>
+        </article>
+        <article class="about-section">
+          <h2>Why the architecture matters</h2>
+          <p>The public site is a static Astro app on GitHub Pages. It consumes generated manifests, previews, and PDFs so the chart pipeline can evolve independently.</p>
+        </article>
+      </div>
+
+      <div class="panel">
+        <div class="section-heading">
+          <span class="section-label">Design rules</span>
+          <h2>Calm, exact, and field-practical</h2>
+          <p>
+            Light mode stays toner-friendly and print-like. Red Night Mode stays strictly red on black. Across both modes, the goal is signage-level clarity, not decorative astronomy art.
+          </p>
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-step">
+            <strong>Print comes first</strong>
+            <p>PDF export is the primary deliverable, so the interface treats vector previews and clear download paths as first-class content.</p>
+          </article>
+          <article class="workflow-step">
+            <strong>Density stays controlled</strong>
+            <p>Charts are shaped around priority and readability rather than dumping every object onto the page.</p>
+          </article>
+          <article class="workflow-step">
+            <strong>Targets stay canonical</strong>
+            <p>{canonicalTargets.length} Messier IDs form the MVP target vocabulary so pinned-object behavior stays stable and reviewable.</p>
+          </article>
+        </div>
+      </div>
+    </div>
   </section>
 </SiteLayout>
-
-<style>
-  .prose-block {
-    padding: 5rem 0;
-    max-width: 46rem;
-  }
-
-  .eyebrow {
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    margin-bottom: 1rem;
-  }
-</style>

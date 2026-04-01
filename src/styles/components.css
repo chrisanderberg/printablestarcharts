@@ -1,0 +1,531 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__inner {
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-header__brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.site-header__nav a {
+  color: var(--ink-soft);
+  font-size: 0.96rem;
+}
+
+.site-header__nav a:hover,
+.site-header__nav a:focus-visible {
+  color: var(--ink);
+}
+
+.night-toggle {
+  border: 1px solid var(--line-strong);
+  background: var(--paper-strong);
+  color: var(--ink);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  box-shadow: var(--glow);
+}
+
+.night-toggle__dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 18px rgba(178, 29, 24, 0.45);
+}
+
+.hero {
+  padding: 4.5rem 0 2.5rem;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.hero__copy,
+.hero__preview {
+  background: var(--paper-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+}
+
+.hero__copy {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hero__eyebrow,
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.hero__eyebrow::before,
+.section-label::before {
+  content: '';
+  width: 1.6rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.hero__title {
+  max-width: 12ch;
+  font-size: clamp(3rem, 6vw, 5.6rem);
+}
+
+.hero__lede {
+  max-width: 42rem;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.button,
+.button--ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  padding: 0.8rem 1.15rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line-strong);
+  font-weight: 700;
+  transition:
+    transform 140ms ease,
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.button {
+  background: var(--accent);
+  color: #fff6f4;
+  border-color: var(--accent);
+}
+
+html[data-theme='night'] .button {
+  color: #020202;
+}
+
+.button--ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+.button:hover,
+.button--ghost:hover,
+.button:focus-visible,
+.button--ghost:focus-visible {
+  transform: translateY(-1px);
+}
+
+.hero__meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.metric-card,
+.panel,
+.preview-card,
+.tool-card,
+.constellation-card,
+.planisphere-result,
+.about-section {
+  background: var(--paper-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glow);
+}
+
+.metric-card {
+  padding: 1rem;
+}
+
+.metric-card__value {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.metric-card__label {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.hero__preview {
+  padding: 1rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.preview-card {
+  overflow: hidden;
+}
+
+.preview-card__frame {
+  padding: 0.8rem;
+  background: var(--paper-muted);
+}
+
+.preview-card__frame--night {
+  background: #050505;
+}
+
+.preview-card__frame--night img {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(93%) saturate(3342%) hue-rotate(347deg) brightness(110%) contrast(98%);
+}
+
+.preview-card__body {
+  padding: 0.9rem 1rem 1rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.preview-card__eyebrow {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.workbench {
+  padding: 1.2rem 0 4rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.section-heading {
+  display: grid;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading p {
+  max-width: 44rem;
+  color: var(--ink-soft);
+}
+
+.workbench__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1.25rem;
+}
+
+.panel {
+  padding: 1.2rem;
+}
+
+.panel--dense {
+  padding: 1rem;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.tool-card {
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.tool-card strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+}
+
+.tool-card p,
+.muted {
+  color: var(--ink-soft);
+}
+
+.target-input {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.target-input__row,
+.browser-controls,
+.planisphere-form__grid,
+.planisphere-actions,
+.chip-row {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.target-input__field,
+.browser-input,
+.browser-select,
+.planisphere-field input,
+.planisphere-field select {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--paper-muted);
+  color: var(--ink);
+  border-radius: 16px;
+  padding: 0.85rem 0.95rem;
+}
+
+.target-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius-sm);
+  background: var(--accent-wash);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.target-chip button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+.feedback {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.browser-shell,
+.planisphere-shell {
+  display: grid;
+  gap: 1rem;
+}
+
+.browser-controls {
+  align-items: center;
+}
+
+.browser-input {
+  flex: 1 1 15rem;
+}
+
+.browser-select {
+  flex: 0 0 11rem;
+}
+
+.browser-summary {
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}
+
+.constellation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.95rem;
+}
+
+.constellation-card {
+  overflow: hidden;
+  display: grid;
+}
+
+.constellation-card__image {
+  aspect-ratio: 0.74;
+  background: var(--paper-muted);
+}
+
+.constellation-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.constellation-card__body {
+  padding: 1rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.constellation-card__title {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.constellation-card__title h3 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.constellation-card__meta,
+.constellation-card__targets,
+.planisphere-result__meta {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--paper-muted);
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+}
+
+.pill--accent {
+  background: var(--accent-wash);
+  color: var(--accent);
+}
+
+.planisphere-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.planisphere-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.planisphere-field label {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.planisphere-result {
+  overflow: hidden;
+}
+
+.planisphere-result__preview {
+  padding: 1rem;
+  background: var(--paper-muted);
+}
+
+.planisphere-result__body {
+  padding: 1rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.planisphere-result__body h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.workflow-grid,
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.workflow-step,
+.about-section {
+  padding: 1.15rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.about {
+  padding: 4rem 0;
+}
+
+.about-hero {
+  max-width: 42rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-hero h1 {
+  font-size: clamp(2.8rem, 5vw, 4.6rem);
+}
+
+@media (max-width: 1080px) {
+  .hero__grid,
+  .workbench__grid,
+  .workflow-grid,
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .constellation-grid,
+  .tool-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-top: 2rem;
+  }
+
+  .hero__copy,
+  .hero__preview,
+  .panel,
+  .workflow-step,
+  .about-section {
+    padding: 1rem;
+  }
+
+  .hero__meta,
+  .constellation-grid,
+  .tool-grid,
+  .planisphere-form__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header__inner {
+    align-items: flex-start;
+    padding: 0.85rem 0;
+  }
+
+  .site-header__nav {
+    justify-content: flex-end;
+  }
+}

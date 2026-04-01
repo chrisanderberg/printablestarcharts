@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "psc",
+  "iauCode": "Psc",
+  "slug": "fishes",
+  "name": "Fishes",
+  "title": "Fishes",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -23.53,
+    "centerDecDeg": 14,
+    "radiusDeg": 28.3
+  },
+  "counts": {
+    "stars": 79,
+    "messier": 3,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/psc/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/psc/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m33",
+      "label": "M33",
+      "type": "messier"
+    },
+    {
+      "id": "m32",
+      "label": "M32",
+      "type": "messier"
+    },
+    {
+      "id": "m74",
+      "label": "M74",
+      "type": "messier"
+    }
+  ]
+}

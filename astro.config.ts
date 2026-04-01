@@ -7,5 +7,6 @@ export default defineConfig({
   site: getSiteOrigin(),
   base: getBasePath(),
   output: 'static',
+  publicDir: './site-public',
   integrations: [react(), mdx()],
 });

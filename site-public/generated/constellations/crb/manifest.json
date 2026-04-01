@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "crb",
+  "iauCode": "CrB",
+  "slug": "northern-crown",
+  "name": "Northern Crown",
+  "title": "Northern Crown",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -8.16,
+    "centerDecDeg": 32.62,
+    "radiusDeg": 15.1
+  },
+  "counts": {
+    "stars": 25,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/crb/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/crb/thumb.svg"
+  },
+  "includedTargets": []
+}

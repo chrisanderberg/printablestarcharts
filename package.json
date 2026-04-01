@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "generate:artifacts": "node scripts/generate-artifacts.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -15,6 +16,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.0.3",
+    "d3-celestial": "^0.7.35",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   }

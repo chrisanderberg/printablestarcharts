@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "planisphere-book",
+  "id": "lat_p0_utc_p300",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "locationModel": {
+    "latitudeBand": 0,
+    "utcOffsetMinutes": 300,
+    "timezoneLabel": "UTC+05:00",
+    "resolutionPolicy": "nearest-supported"
+  },
+  "page": {
+    "size": "letter",
+    "orientation": "portrait",
+    "pageCount": 50
+  },
+  "files": {
+    "pdf": "/generated/planispheres/lat_p0/book.pdf",
+    "thumbnailSvg": "/generated/planispheres/lat_p0/thumb.svg"
+  },
+  "supportedForcedTargets": [
+    "m13",
+    "m31",
+    "m42",
+    "m45",
+    "m51",
+    "m57",
+    "m81",
+    "m82",
+    "m104"
+  ]
+}

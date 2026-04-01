@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "aur",
+  "iauCode": "Aur",
+  "slug": "charioteer",
+  "name": "Charioteer",
+  "title": "Charioteer",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 6.07,
+    "centerDecDeg": 42,
+    "radiusDeg": 22.2
+  },
+  "counts": {
+    "stars": 75,
+    "messier": 4,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/aur/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/aur/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m35",
+      "label": "M35",
+      "type": "messier"
+    },
+    {
+      "id": "m37",
+      "label": "M37",
+      "type": "messier"
+    },
+    {
+      "id": "m36",
+      "label": "M36",
+      "type": "messier"
+    },
+    {
+      "id": "m38",
+      "label": "M38",
+      "type": "messier"
+    }
+  ]
+}

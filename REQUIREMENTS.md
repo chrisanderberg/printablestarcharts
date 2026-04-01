@@ -32,8 +32,7 @@ captures the requirements that should guide implementation and review.
 ## Soft requirements
 - Prioritize field readability under red flashlight over decorative astronomy
   aesthetics.
-- Use crisp vector marks, subtle constellation stick lines, and dotted IAU
-  boundaries.
+- Use crisp vector marks and dotted IAU boundaries.
 - Avoid photorealistic sky imagery, gradients, lens flares, and souvenir-poster
   styling.
 - Keep light mode toner-friendly and print-first.
@@ -41,6 +40,12 @@ captures the requirements that should guide implementation and review.
 - Circular charts should preserve clear N/E/S/W markers.
 - Object inclusion should respect density limits while still honoring important
   navigation stars and forced-inclusion targets.
+- For the static-site MVP, planisphere selection may resolve user input to the
+  nearest supported generated artifact family rather than performing exact
+  in-site chart generation.
+- For the static-site MVP, forced-inclusion support should normalize against a
+  canonical Messier target list and expose artifact compatibility clearly when a
+  fully generated target-specific variant is not available.
 
 ## Implementation structure
 - Prefer one Astro app at the repo root unless the project grows enough that a

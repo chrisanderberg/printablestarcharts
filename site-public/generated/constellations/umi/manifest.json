@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "umi",
+  "iauCode": "UMi",
+  "slug": "little-dipper",
+  "name": "Little Dipper",
+  "title": "Little Dipper",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -9.33,
+    "centerDecDeg": 78,
+    "radiusDeg": 20.6
+  },
+  "counts": {
+    "stars": 24,
+    "messier": 3,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/umi/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/umi/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m81",
+      "label": "M81",
+      "type": "messier"
+    },
+    {
+      "id": "m52",
+      "label": "M52",
+      "type": "messier"
+    },
+    {
+      "id": "m82",
+      "label": "M82",
+      "type": "messier"
+    }
+  ]
+}

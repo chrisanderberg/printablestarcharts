@@ -1,0 +1,730 @@
+{
+  "schemaVersion": "1",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "items": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "aliases": [
+        "crab nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "aliases": [
+        "butterfly cluster"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "aliases": [
+        "ptolemy´s cluster"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "aliases": [
+        "lagoon nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m10",
+      "label": "M10",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m11",
+      "label": "M11",
+      "aliases": [
+        "wild duck cluster"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m12",
+      "label": "M12",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m13",
+      "label": "M13",
+      "aliases": [
+        "great hercules cluster"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m14",
+      "label": "M14",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m15",
+      "label": "M15",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m16",
+      "label": "M16",
+      "aliases": [
+        "eagle nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m17",
+      "label": "M17",
+      "aliases": [
+        "omega nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m18",
+      "label": "M18",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m19",
+      "label": "M19",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m20",
+      "label": "M20",
+      "aliases": [
+        "trifid nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m21",
+      "label": "M21",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m22",
+      "label": "M22",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m23",
+      "label": "M23",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m24",
+      "label": "M24",
+      "aliases": [
+        "milky way patch"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m25",
+      "label": "M25",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m26",
+      "label": "M26",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m27",
+      "label": "M27",
+      "aliases": [
+        "dumbbell nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m28",
+      "label": "M28",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m29",
+      "label": "M29",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m30",
+      "label": "M30",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m31",
+      "label": "M31",
+      "aliases": [
+        "andromeda"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m32",
+      "label": "M32",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m33",
+      "label": "M33",
+      "aliases": [
+        "triangulum"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m34",
+      "label": "M34",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m35",
+      "label": "M35",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m36",
+      "label": "M36",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m37",
+      "label": "M37",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m38",
+      "label": "M38",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m39",
+      "label": "M39",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m40",
+      "label": "M40",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m41",
+      "label": "M41",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m42",
+      "label": "M42",
+      "aliases": [
+        "orion nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m43",
+      "label": "M43",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m44",
+      "label": "M44",
+      "aliases": [
+        "praesepe"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m45",
+      "label": "M45",
+      "aliases": [
+        "pleiades"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m46",
+      "label": "M46",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m47",
+      "label": "M47",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m48",
+      "label": "M48",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m49",
+      "label": "M49",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m50",
+      "label": "M50",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m51",
+      "label": "M51",
+      "aliases": [
+        "whirlpool"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m52",
+      "label": "M52",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m53",
+      "label": "M53",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m54",
+      "label": "M54",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m55",
+      "label": "M55",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m56",
+      "label": "M56",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m57",
+      "label": "M57",
+      "aliases": [
+        "ring nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m58",
+      "label": "M58",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m59",
+      "label": "M59",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m60",
+      "label": "M60",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m61",
+      "label": "M61",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m62",
+      "label": "M62",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m63",
+      "label": "M63",
+      "aliases": [
+        "sunflower galaxy"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m64",
+      "label": "M64",
+      "aliases": [
+        "blackeye galaxy"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m65",
+      "label": "M65",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m66",
+      "label": "M66",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m67",
+      "label": "M67",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m68",
+      "label": "M68",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m69",
+      "label": "M69",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m70",
+      "label": "M70",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m71",
+      "label": "M71",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m72",
+      "label": "M72",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m73",
+      "label": "M73",
+      "aliases": [
+        "4 star asterism"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m74",
+      "label": "M74",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m75",
+      "label": "M75",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m76",
+      "label": "M76",
+      "aliases": [
+        "little dumbbell nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m77",
+      "label": "M77",
+      "aliases": [
+        "cetus a"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m78",
+      "label": "M78",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m79",
+      "label": "M79",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m80",
+      "label": "M80",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m81",
+      "label": "M81",
+      "aliases": [
+        "bode´s galaxy"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m82",
+      "label": "M82",
+      "aliases": [
+        "cigar galaxy"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m83",
+      "label": "M83",
+      "aliases": [
+        "southern pinwheel"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m84",
+      "label": "M84",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m85",
+      "label": "M85",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m86",
+      "label": "M86",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m87",
+      "label": "M87",
+      "aliases": [
+        "virgo a"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m88",
+      "label": "M88",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m89",
+      "label": "M89",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m90",
+      "label": "M90",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m91",
+      "label": "M91",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m92",
+      "label": "M92",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m93",
+      "label": "M93",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m94",
+      "label": "M94",
+      "aliases": [
+        "cat’s eye galaxy"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m95",
+      "label": "M95",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m96",
+      "label": "M96",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m97",
+      "label": "M97",
+      "aliases": [
+        "owl nebula"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m98",
+      "label": "M98",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m99",
+      "label": "M99",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m100",
+      "label": "M100",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m101",
+      "label": "M101",
+      "aliases": [
+        "pinwheel"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m102",
+      "label": "M102",
+      "aliases": [
+        "spindle"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m103",
+      "label": "M103",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m104",
+      "label": "M104",
+      "aliases": [
+        "sombrero"
+      ],
+      "type": "messier"
+    },
+    {
+      "id": "m105",
+      "label": "M105",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m106",
+      "label": "M106",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m107",
+      "label": "M107",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m108",
+      "label": "M108",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m109",
+      "label": "M109",
+      "aliases": [],
+      "type": "messier"
+    },
+    {
+      "id": "m110",
+      "label": "M110",
+      "aliases": [],
+      "type": "messier"
+    }
+  ]
+}

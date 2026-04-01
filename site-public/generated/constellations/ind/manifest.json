@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "ind",
+  "iauCode": "Ind",
+  "slug": "indian",
+  "name": "Indian",
+  "title": "Indian",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -2.67,
+    "centerDecDeg": -63,
+    "radiusDeg": 26
+  },
+  "counts": {
+    "stars": 19,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/ind/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/ind/thumb.svg"
+  },
+  "includedTargets": []
+}

@@ -1,0 +1,974 @@
+{
+  "schemaVersion": "1",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "items": [
+    {
+      "id": "ant",
+      "iauCode": "Ant",
+      "slug": "air-pump",
+      "name": "Air Pump",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/ant/manifest.json"
+    },
+    {
+      "id": "ara",
+      "iauCode": "Ara",
+      "slug": "altar",
+      "name": "Altar",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/ara/manifest.json"
+    },
+    {
+      "id": "and",
+      "iauCode": "And",
+      "slug": "andromeda",
+      "name": "Andromeda",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/and/manifest.json"
+    },
+    {
+      "id": "aqr",
+      "iauCode": "Aqr",
+      "slug": "aquarius",
+      "name": "Aquarius",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/aqr/manifest.json"
+    },
+    {
+      "id": "sgr",
+      "iauCode": "Sgr",
+      "slug": "archer",
+      "name": "Archer",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/sgr/manifest.json"
+    },
+    {
+      "id": "sge",
+      "iauCode": "Sge",
+      "slug": "arrow",
+      "name": "Arrow",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/sge/manifest.json"
+    },
+    {
+      "id": "lib",
+      "iauCode": "Lib",
+      "slug": "balance",
+      "name": "Balance",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/lib/manifest.json"
+    },
+    {
+      "id": "com",
+      "iauCode": "Com",
+      "slug": "berenice's-hair",
+      "name": "Berenice's Hair",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/com/manifest.json"
+    },
+    {
+      "id": "uma",
+      "iauCode": "UMa",
+      "slug": "big-dipper",
+      "name": "Big Dipper",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/uma/manifest.json"
+    },
+    {
+      "id": "aps",
+      "iauCode": "Aps",
+      "slug": "bird-of-paradise",
+      "name": "Bird of Paradise",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/aps/manifest.json"
+    },
+    {
+      "id": "tau",
+      "iauCode": "Tau",
+      "slug": "bull",
+      "name": "Bull",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/tau/manifest.json"
+    },
+    {
+      "id": "cap",
+      "iauCode": "Cap",
+      "slug": "capricorn",
+      "name": "Capricorn",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cap/manifest.json"
+    },
+    {
+      "id": "cas",
+      "iauCode": "Cas",
+      "slug": "cassiopeia",
+      "name": "Cassiopeia",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cas/manifest.json"
+    },
+    {
+      "id": "cen",
+      "iauCode": "Cen",
+      "slug": "centaur",
+      "name": "Centaur",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cen/manifest.json"
+    },
+    {
+      "id": "cep",
+      "iauCode": "Cep",
+      "slug": "cepheus",
+      "name": "Cepheus",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cep/manifest.json"
+    },
+    {
+      "id": "cha",
+      "iauCode": "Cha",
+      "slug": "chamaeleon",
+      "name": "Chamaeleon",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/cha/manifest.json"
+    },
+    {
+      "id": "aur",
+      "iauCode": "Aur",
+      "slug": "charioteer",
+      "name": "Charioteer",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/aur/manifest.json"
+    },
+    {
+      "id": "hor",
+      "iauCode": "Hor",
+      "slug": "clock",
+      "name": "Clock",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/hor/manifest.json"
+    },
+    {
+      "id": "equ",
+      "iauCode": "Equ",
+      "slug": "colt",
+      "name": "Colt",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/equ/manifest.json"
+    },
+    {
+      "id": "cir",
+      "iauCode": "Cir",
+      "slug": "compass",
+      "name": "Compass",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cir/manifest.json"
+    },
+    {
+      "id": "pyx",
+      "iauCode": "Pyx",
+      "slug": "compass",
+      "name": "Compass",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/pyx/manifest.json"
+    },
+    {
+      "id": "cnc",
+      "iauCode": "Cnc",
+      "slug": "crab",
+      "name": "Crab",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/cnc/manifest.json"
+    },
+    {
+      "id": "gru",
+      "iauCode": "Gru",
+      "slug": "crane",
+      "name": "Crane",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/gru/manifest.json"
+    },
+    {
+      "id": "cru",
+      "iauCode": "Cru",
+      "slug": "cross",
+      "name": "Cross",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cru/manifest.json"
+    },
+    {
+      "id": "crv",
+      "iauCode": "Crv",
+      "slug": "crow",
+      "name": "Crow",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/crv/manifest.json"
+    },
+    {
+      "id": "crt",
+      "iauCode": "Crt",
+      "slug": "cup",
+      "name": "Cup",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/crt/manifest.json"
+    },
+    {
+      "id": "del",
+      "iauCode": "Del",
+      "slug": "dolphin",
+      "name": "Dolphin",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/del/manifest.json"
+    },
+    {
+      "id": "col",
+      "iauCode": "Col",
+      "slug": "dove",
+      "name": "Dove",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/col/manifest.json"
+    },
+    {
+      "id": "dra",
+      "iauCode": "Dra",
+      "slug": "dragon",
+      "name": "Dragon",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/dra/manifest.json"
+    },
+    {
+      "id": "aql",
+      "iauCode": "Aql",
+      "slug": "eagle",
+      "name": "Eagle",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/aql/manifest.json"
+    },
+    {
+      "id": "eri",
+      "iauCode": "Eri",
+      "slug": "eridanus",
+      "name": "Eridanus",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/eri/manifest.json"
+    },
+    {
+      "id": "psc",
+      "iauCode": "Psc",
+      "slug": "fishes",
+      "name": "Fishes",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/psc/manifest.json"
+    },
+    {
+      "id": "mus",
+      "iauCode": "Mus",
+      "slug": "fly",
+      "name": "Fly",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/mus/manifest.json"
+    },
+    {
+      "id": "vol",
+      "iauCode": "Vol",
+      "slug": "flying-fish",
+      "name": "Flying Fish",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/vol/manifest.json"
+    },
+    {
+      "id": "for",
+      "iauCode": "For",
+      "slug": "furnace",
+      "name": "Furnace",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/for/manifest.json"
+    },
+    {
+      "id": "cam",
+      "iauCode": "Cam",
+      "slug": "giraffe",
+      "name": "Giraffe",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/cam/manifest.json"
+    },
+    {
+      "id": "dor",
+      "iauCode": "Dor",
+      "slug": "goldfish",
+      "name": "Goldfish",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/dor/manifest.json"
+    },
+    {
+      "id": "cae",
+      "iauCode": "Cae",
+      "slug": "graving-tool",
+      "name": "Graving tool",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/cae/manifest.json"
+    },
+    {
+      "id": "cma",
+      "iauCode": "CMa",
+      "slug": "great-dog",
+      "name": "Great Dog",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/cma/manifest.json"
+    },
+    {
+      "id": "lep",
+      "iauCode": "Lep",
+      "slug": "hare",
+      "name": "Hare",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/lep/manifest.json"
+    },
+    {
+      "id": "her",
+      "iauCode": "Her",
+      "slug": "hercules",
+      "name": "Hercules",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/her/manifest.json"
+    },
+    {
+      "id": "boo",
+      "iauCode": "Boo",
+      "slug": "herdsman",
+      "name": "Herdsman",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/boo/manifest.json"
+    },
+    {
+      "id": "cvn",
+      "iauCode": "CVn",
+      "slug": "hunting-dogs",
+      "name": "Hunting Dogs",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cvn/manifest.json"
+    },
+    {
+      "id": "hyi",
+      "iauCode": "Hyi",
+      "slug": "hydrus",
+      "name": "Hydrus",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/hyi/manifest.json"
+    },
+    {
+      "id": "ind",
+      "iauCode": "Ind",
+      "slug": "indian",
+      "name": "Indian",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/ind/manifest.json"
+    },
+    {
+      "id": "car",
+      "iauCode": "Car",
+      "slug": "keel",
+      "name": "Keel",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/car/manifest.json"
+    },
+    {
+      "id": "nor",
+      "iauCode": "Nor",
+      "slug": "level",
+      "name": "Level",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/nor/manifest.json"
+    },
+    {
+      "id": "leo",
+      "iauCode": "Leo",
+      "slug": "lion",
+      "name": "Lion",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/leo/manifest.json"
+    },
+    {
+      "id": "umi",
+      "iauCode": "UMi",
+      "slug": "little-dipper",
+      "name": "Little Dipper",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/umi/manifest.json"
+    },
+    {
+      "id": "cmi",
+      "iauCode": "CMi",
+      "slug": "little-dog",
+      "name": "Little Dog",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/cmi/manifest.json"
+    },
+    {
+      "id": "vul",
+      "iauCode": "Vul",
+      "slug": "little-fox",
+      "name": "Little Fox",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/vul/manifest.json"
+    },
+    {
+      "id": "lmi",
+      "iauCode": "LMi",
+      "slug": "little-lion",
+      "name": "Little Lion",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/lmi/manifest.json"
+    },
+    {
+      "id": "lac",
+      "iauCode": "Lac",
+      "slug": "lizard",
+      "name": "Lizard",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/lac/manifest.json"
+    },
+    {
+      "id": "lyn",
+      "iauCode": "Lyn",
+      "slug": "lynx",
+      "name": "Lynx",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/lyn/manifest.json"
+    },
+    {
+      "id": "lyr",
+      "iauCode": "Lyr",
+      "slug": "lyre",
+      "name": "Lyre",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/lyr/manifest.json"
+    },
+    {
+      "id": "men",
+      "iauCode": "Men",
+      "slug": "mensa",
+      "name": "Mensa",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/men/manifest.json"
+    },
+    {
+      "id": "mic",
+      "iauCode": "Mic",
+      "slug": "microscope",
+      "name": "Microscope",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/mic/manifest.json"
+    },
+    {
+      "id": "ret",
+      "iauCode": "Ret",
+      "slug": "net",
+      "name": "Net",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/ret/manifest.json"
+    },
+    {
+      "id": "crb",
+      "iauCode": "CrB",
+      "slug": "northern-crown",
+      "name": "Northern Crown",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/crb/manifest.json"
+    },
+    {
+      "id": "oct",
+      "iauCode": "Oct",
+      "slug": "octant",
+      "name": "Octant",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/oct/manifest.json"
+    },
+    {
+      "id": "oph",
+      "iauCode": "Oph",
+      "slug": "ophiuchus",
+      "name": "Ophiuchus",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/oph/manifest.json"
+    },
+    {
+      "id": "ori",
+      "iauCode": "Ori",
+      "slug": "orion",
+      "name": "Orion",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/ori/manifest.json"
+    },
+    {
+      "id": "pic",
+      "iauCode": "Pic",
+      "slug": "painter",
+      "name": "Painter",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/pic/manifest.json"
+    },
+    {
+      "id": "pav",
+      "iauCode": "Pav",
+      "slug": "peacock",
+      "name": "Peacock",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/pav/manifest.json"
+    },
+    {
+      "id": "peg",
+      "iauCode": "Peg",
+      "slug": "pegasus",
+      "name": "Pegasus",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/peg/manifest.json"
+    },
+    {
+      "id": "per",
+      "iauCode": "Per",
+      "slug": "perseus",
+      "name": "Perseus",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/per/manifest.json"
+    },
+    {
+      "id": "phe",
+      "iauCode": "Phe",
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/phe/manifest.json"
+    },
+    {
+      "id": "pup",
+      "iauCode": "Pup",
+      "slug": "poop-deck",
+      "name": "Poop Deck",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/pup/manifest.json"
+    },
+    {
+      "id": "ari",
+      "iauCode": "Ari",
+      "slug": "ram",
+      "name": "Ram",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/ari/manifest.json"
+    },
+    {
+      "id": "vel",
+      "iauCode": "Vel",
+      "slug": "sails",
+      "name": "Sails",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/vel/manifest.json"
+    },
+    {
+      "id": "sco",
+      "iauCode": "Sco",
+      "slug": "scorpion",
+      "name": "Scorpion",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/sco/manifest.json"
+    },
+    {
+      "id": "scl",
+      "iauCode": "Scl",
+      "slug": "sculptor",
+      "name": "Sculptor",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/scl/manifest.json"
+    },
+    {
+      "id": "hya",
+      "iauCode": "Hya",
+      "slug": "sea-serpent",
+      "name": "Sea Serpent",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/hya/manifest.json"
+    },
+    {
+      "id": "ser",
+      "iauCode": "Ser",
+      "slug": "serpent",
+      "name": "Serpent",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/ser/manifest.json"
+    },
+    {
+      "id": "sex",
+      "iauCode": "Sex",
+      "slug": "sextant",
+      "name": "Sextant",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "spring"
+      ],
+      "manifestPath": "/generated/constellations/sex/manifest.json"
+    },
+    {
+      "id": "sct",
+      "iauCode": "Sct",
+      "slug": "shield",
+      "name": "Shield",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/sct/manifest.json"
+    },
+    {
+      "id": "cra",
+      "iauCode": "CrA",
+      "slug": "southern-crown",
+      "name": "Southern Crown",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cra/manifest.json"
+    },
+    {
+      "id": "psa",
+      "iauCode": "PsA",
+      "slug": "southern-fish",
+      "name": "Southern Fish",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/psa/manifest.json"
+    },
+    {
+      "id": "tra",
+      "iauCode": "TrA",
+      "slug": "southern-triangle",
+      "name": "Southern Triangle",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/tra/manifest.json"
+    },
+    {
+      "id": "cyg",
+      "iauCode": "Cyg",
+      "slug": "swan",
+      "name": "Swan",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cyg/manifest.json"
+    },
+    {
+      "id": "tel",
+      "iauCode": "Tel",
+      "slug": "telescope",
+      "name": "Telescope",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/tel/manifest.json"
+    },
+    {
+      "id": "tuc",
+      "iauCode": "Tuc",
+      "slug": "toucan",
+      "name": "Toucan",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/tuc/manifest.json"
+    },
+    {
+      "id": "tri",
+      "iauCode": "Tri",
+      "slug": "triangle",
+      "name": "Triangle",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/tri/manifest.json"
+    },
+    {
+      "id": "gem",
+      "iauCode": "Gem",
+      "slug": "twins",
+      "name": "Twins",
+      "hemisphereBias": "northern",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/gem/manifest.json"
+    },
+    {
+      "id": "mon",
+      "iauCode": "Mon",
+      "slug": "unicorn",
+      "name": "Unicorn",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "winter"
+      ],
+      "manifestPath": "/generated/constellations/mon/manifest.json"
+    },
+    {
+      "id": "vir",
+      "iauCode": "Vir",
+      "slug": "virgin",
+      "name": "Virgin",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/vir/manifest.json"
+    },
+    {
+      "id": "cet",
+      "iauCode": "Cet",
+      "slug": "whale",
+      "name": "Whale",
+      "hemisphereBias": "equatorial",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/cet/manifest.json"
+    },
+    {
+      "id": "lup",
+      "iauCode": "Lup",
+      "slug": "wolf",
+      "name": "Wolf",
+      "hemisphereBias": "southern",
+      "seasons": [
+        "autumn"
+      ],
+      "manifestPath": "/generated/constellations/lup/manifest.json"
+    }
+  ]
+}

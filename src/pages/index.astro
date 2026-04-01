@@ -1,35 +1,102 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+import ChartWorkbench from '../components/home/ChartWorkbench';
+import { loadConstellations } from '../lib/artifacts/loadConstellations';
+import { loadPlanispheres } from '../lib/artifacts/loadPlanispheres';
+import { loadTargets } from '../lib/artifacts/loadTargets';
+import { withBasePath } from '../lib/site';
+
+const constellations = await loadConstellations();
+const planispheres = await loadPlanispheres();
+const canonicalTargets = await loadTargets();
+const previewConstellation = constellations.find((entry) => entry.id === 'ori') ?? constellations[0];
+const previewPlanisphere = planispheres.find((entry) => entry.latitudeBand === 45 && entry.utcOffsetMinutes === -480) ?? planispheres[0];
+const latitudeBandCount = new Set(planispheres.map((entry) => entry.latitudeBand)).size;
 ---
 
 <SiteLayout
   title="printablestarcharts"
-  description="Static scaffold for a print-first star-chart generator."
+  description="Print-first star charts, constellation sheets, and a book-style planisphere built for field use under red light."
 >
-  <section class="hero container">
-    <p class="eyebrow">Main worktree scaffold</p>
-    <h1>Field-first project setup for printablestarcharts.</h1>
-    <p class="lede">
-      This repo is initialized around the planned product shape for printable
-      constellation charts and a generated planisphere book, but no chart
-      pipeline or generator UI has been implemented yet.
-    </p>
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <span class="hero__eyebrow">MVP live</span>
+        <h1 class="hero__title">Star charts designed for printing and field use.</h1>
+        <p class="hero__lede">
+          Black toner on white paper in light mode. Strict red-on-black in Red Night Mode. The site ships all 88 IAU constellation sheets, a static artifact-driven planisphere resolver, and a shared Messier target catalog for pinned observing targets.
+        </p>
+        <div class="button-row">
+          <a class="button" href="#constellations">Browse 88 charts</a>
+          <a class="button--ghost" href="#planisphere">Build a planisphere</a>
+        </div>
+        <div class="hero__meta">
+          <article class="metric-card">
+            <div class="metric-card__value">{constellations.length}</div>
+            <div class="metric-card__label">IAU constellation PDFs</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-card__value">{latitudeBandCount}</div>
+            <div class="metric-card__label">supported latitude bands</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-card__value">{canonicalTargets.length}</div>
+            <div class="metric-card__label">canonical Messier targets</div>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero__preview">
+        <article class="preview-card">
+          <div class="preview-card__frame">
+            <img src={withBasePath(import.meta.env.BASE_URL, previewConstellation.files.thumbnailSvg ?? '')} alt="Print preview constellation chart" />
+          </div>
+          <div class="preview-card__body">
+            <span class="preview-card__eyebrow">Print preview</span>
+            <strong>{previewConstellation.name}</strong>
+            <p class="muted">Letter-sized constellation sheet with dotted IAU boundaries, real stars, and Messier objects.</p>
+          </div>
+        </article>
+
+        <article class="preview-card">
+          <div class="preview-card__frame preview-card__frame--night">
+            <img src={withBasePath(import.meta.env.BASE_URL, previewPlanisphere.files.thumbnailSvg ?? '')} alt="Night preview planisphere chart" />
+          </div>
+          <div class="preview-card__body">
+            <span class="preview-card__eyebrow">Red Night Mode</span>
+            <strong>Planisphere {previewPlanisphere.latitudeBand >= 0 ? 'N' : 'S'} {Math.abs(previewPlanisphere.latitudeBand)}°</strong>
+            <p class="muted">Circular horizon view with N/E/S/W markers and a red-only on-screen presentation.</p>
+          </div>
+        </article>
+      </div>
+    </div>
   </section>
+
+  <div class="container">
+    <section class="panel">
+      <div class="section-heading">
+        <span class="section-label">Three tools, one field workflow</span>
+        <h2>Print-friendly by default, night-safe when a screen is unavoidable</h2>
+      </div>
+      <div class="tool-grid">
+        <article class="tool-card">
+          <strong>Constellation sheets</strong>
+          <p>Static global charts for all 88 IAU constellations, using official boundaries plus real stars and Messier targets.</p>
+        </article>
+        <article class="tool-card">
+          <strong>Planisphere books</strong>
+          <p>Book-style horizon charts resolved from latitude, longitude, and timezone without turning the site into a raw data pipeline.</p>
+        </article>
+        <article class="tool-card">
+          <strong>Pinned targets</strong>
+          <p>Canonical Messier IDs let observers keep favorite targets in view while browsing charts and checking artifact support.</p>
+        </article>
+      </div>
+    </section>
+
+    <ChartWorkbench
+      client:load
+      basePath={import.meta.env.BASE_URL}
+    />
+  </div>
 </SiteLayout>
-
-<style>
-  .hero {
-    padding: 6rem 0 4rem;
-  }
-
-  .eyebrow {
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    margin-bottom: 1rem;
-  }
-
-  .lede {
-    max-width: 44rem;
-  }
-</style>

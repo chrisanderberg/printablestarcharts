@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="918.0745632136461" viewBox="0 0 760 918.0745632136461">
+  <rect width="760" height="918.0745632136461" rx="28" fill="#fffdf8"/>
+  <rect x="16" y="16" width="728" height="886.0745632136461" rx="20" fill="none" stroke="#171412" stroke-width="1.2"/>
+  <path d="M 212.6 702.6 L 211.0 518.1 L 239.0 517.9 L 236.7 248.8 L 354.6 247.8 L 399.5 247.4 L 399.3 216.6 L 545.3 215.4 L 549.0 699.8 L 212.6 702.6 Z" fill="none" stroke="#968774" stroke-width="1.15" stroke-dasharray="4 6"/>
+  <circle cx="431.2" cy="574.8" r="2.53" fill="#11100f"/>
+  <circle cx="104.2" cy="73.1" r="2.32" fill="#11100f"/>
+  <circle cx="68.3" cy="121.6" r="2.23" fill="#11100f"/>
+  <circle cx="416.1" cy="355.3" r="2.21" fill="#11100f"/>
+  <circle cx="369.7" cy="349.6" r="2.07" fill="#11100f"/>
+  <circle cx="697.3" cy="713.4" r="1.84" fill="#11100f"/>
+  <circle cx="104.1" cy="73.1" r="1.81" fill="#11100f"/>
+  <circle cx="510.5" cy="502.7" r="1.81" fill="#11100f"/>
+  <circle cx="204.6" cy="184.0" r="1.79" fill="#11100f"/>
+  <circle cx="243.5" cy="618.8" r="1.76" fill="#11100f"/>
+  <circle cx="243.4" cy="618.9" r="1.73" fill="#11100f"/>
+  <circle cx="236.2" cy="316.9" r="1.60" fill="#11100f"/>
+  <circle cx="204.9" cy="237.1" r="1.59" fill="#11100f"/>
+  <circle cx="117.1" cy="539.8" r="1.57" fill="#11100f"/>
+  <circle cx="305.1" cy="563.1" r="1.53" fill="#11100f"/>
+  <circle cx="685.8" cy="550.7" r="1.52" fill="#11100f"/>
+  <circle cx="490.1" cy="477.7" r="1.43" fill="#11100f"/>
+  <circle cx="314.8" cy="542.1" r="1.35" fill="#11100f"/>
+  <circle cx="465.3" cy="300.1" r="1.34" fill="#11100f"/>
+  <circle cx="254.5" cy="470.2" r="1.33" fill="#11100f"/>
+  <circle cx="590.1" cy="255.7" r="4.7" fill="none" stroke="#b21d18" stroke-width="1.4" />
+  <circle cx="629.4" cy="854.6" r="4.7" fill="none" stroke="#b21d18" stroke-width="1.4" />
+  <text x="598.1" y="249.7" fill="#b21d18" font-family="Helvetica, Arial, sans-serif" font-size="10">M15</text>
+  <text x="637.4" y="848.6" fill="#b21d18" font-family="Helvetica, Arial, sans-serif" font-size="10">M2</text>
+  <text x="438.2" y="568.8" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">alpha</text>
+  <text x="423.1" y="349.3" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">delta</text>
+  <text x="376.7" y="343.6" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">gamma</text>
+  <text x="517.5" y="496.7" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">beta</text>
+  <text x="250.4" y="612.9" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">epsilon</text>
+  <text x="24" y="42" fill="#171412" font-family="Georgia, serif" font-size="26" font-weight="700">Colt</text>
+  <text x="24" y="64" fill="#695a4d" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.3">Equ · stars, IAU boundaries, Messier objects</text>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cet",
+  "iauCode": "Cet",
+  "slug": "whale",
+  "name": "Whale",
+  "title": "Whale",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -22.33,
+    "centerDecDeg": -7,
+    "radiusDeg": 25.9
+  },
+  "counts": {
+    "stars": 111,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cet/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cet/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m77",
+      "label": "M77",
+      "type": "messier"
+    },
+    {
+      "id": "m74",
+      "label": "M74",
+      "type": "messier"
+    }
+  ]
+}

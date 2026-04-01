@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "hya",
+  "iauCode": "Hya",
+  "slug": "sea-serpent",
+  "name": "Sea Serpent",
+  "title": "Sea Serpent",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 11.6,
+    "centerDecDeg": -14,
+    "radiusDeg": 29.7
+  },
+  "counts": {
+    "stars": 121,
+    "messier": 25,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/hya/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/hya/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m47",
+      "label": "M47",
+      "type": "messier"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "type": "messier"
+    },
+    {
+      "id": "m48",
+      "label": "M48",
+      "type": "messier"
+    },
+    {
+      "id": "m50",
+      "label": "M50",
+      "type": "messier"
+    },
+    {
+      "id": "m46",
+      "label": "M46",
+      "type": "messier"
+    },
+    {
+      "id": "m93",
+      "label": "M93",
+      "type": "messier"
+    },
+    {
+      "id": "m67",
+      "label": "M67",
+      "type": "messier"
+    },
+    {
+      "id": "m83",
+      "label": "M83",
+      "type": "messier"
+    },
+    {
+      "id": "m68",
+      "label": "M68",
+      "type": "messier"
+    },
+    {
+      "id": "m104",
+      "label": "M104",
+      "type": "messier"
+    },
+    {
+      "id": "m49",
+      "label": "M49",
+      "type": "messier"
+    },
+    {
+      "id": "m87",
+      "label": "M87",
+      "type": "messier"
+    },
+    {
+      "id": "m60",
+      "label": "M60",
+      "type": "messier"
+    },
+    {
+      "id": "m66",
+      "label": "M66",
+      "type": "messier"
+    },
+    {
+      "id": "m86",
+      "label": "M86",
+      "type": "messier"
+    },
+    {
+      "id": "m96",
+      "label": "M96",
+      "type": "messier"
+    },
+    {
+      "id": "m65",
+      "label": "M65",
+      "type": "messier"
+    },
+    {
+      "id": "m84",
+      "label": "M84",
+      "type": "messier"
+    },
+    {
+      "id": "m105",
+      "label": "M105",
+      "type": "messier"
+    },
+    {
+      "id": "m90",
+      "label": "M90",
+      "type": "messier"
+    },
+    {
+      "id": "m61",
+      "label": "M61",
+      "type": "messier"
+    },
+    {
+      "id": "m95",
+      "label": "M95",
+      "type": "messier"
+    },
+    {
+      "id": "m58",
+      "label": "M58",
+      "type": "messier"
+    },
+    {
+      "id": "m59",
+      "label": "M59",
+      "type": "messier"
+    },
+    {
+      "id": "m89",
+      "label": "M89",
+      "type": "messier"
+    }
+  ]
+}

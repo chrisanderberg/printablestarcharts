@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "lib",
+  "iauCode": "Lib",
+  "slug": "balance",
+  "name": "Balance",
+  "title": "Balance",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -8.8,
+    "centerDecDeg": -15.23,
+    "radiusDeg": 22.8
+  },
+  "counts": {
+    "stars": 49,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/lib/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/lib/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m5",
+      "label": "M5",
+      "type": "messier"
+    },
+    {
+      "id": "m80",
+      "label": "M80",
+      "type": "messier"
+    }
+  ]
+}

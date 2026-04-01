@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "vul",
+  "iauCode": "Vul",
+  "slug": "little-fox",
+  "name": "Little Fox",
+  "title": "Little Fox",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -3.77,
+    "centerDecDeg": 24.44,
+    "radiusDeg": 13
+  },
+  "counts": {
+    "stars": 44,
+    "messier": 3,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/vul/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/vul/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m27",
+      "label": "M27",
+      "type": "messier"
+    },
+    {
+      "id": "m56",
+      "label": "M56",
+      "type": "messier"
+    },
+    {
+      "id": "m71",
+      "label": "M71",
+      "type": "messier"
+    }
+  ]
+}

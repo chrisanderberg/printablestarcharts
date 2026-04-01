@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "lyr",
+  "iauCode": "Lyr",
+  "slug": "lyre",
+  "name": "Lyre",
+  "title": "Lyre",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -5.15,
+    "centerDecDeg": 36.69,
+    "radiusDeg": 19
+  },
+  "counts": {
+    "stars": 37,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/lyr/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/lyr/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m56",
+      "label": "M56",
+      "type": "messier"
+    },
+    {
+      "id": "m57",
+      "label": "M57",
+      "type": "messier"
+    }
+  ]
+}

@@ -1,47 +1,19 @@
 ---
 import { REPO_ROOT } from '../../lib/github';
 import { SITE_NAME } from '../../lib/site';
+import NightModeToggle from './NightModeToggle';
 ---
 
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="site-header__brand" href={`${import.meta.env.BASE_URL}`}>{SITE_NAME}</a>
     <nav class="site-header__nav" aria-label="Primary">
-      <a href={`${import.meta.env.BASE_URL}`}>Home</a>
+      <a href={`${import.meta.env.BASE_URL}#constellations`}>Constellations</a>
+      <a href={`${import.meta.env.BASE_URL}#planisphere`}>Planisphere</a>
+      <a href={`${import.meta.env.BASE_URL}#workflow`}>Workflow</a>
       <a href={`${import.meta.env.BASE_URL}about/`}>About</a>
       <a href={REPO_ROOT} target="_blank" rel="noreferrer">GitHub</a>
+      <NightModeToggle client:load />
     </nav>
   </div>
 </header>
-
-<style>
-  .site-header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: rgba(255, 250, 244, 0.88);
-    border-bottom: 1px solid var(--border);
-    backdrop-filter: blur(8px);
-  }
-
-  .site-header__inner {
-    min-height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .site-header__brand {
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
-  .site-header__nav {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-</style>

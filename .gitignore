@@ -9,6 +9,18 @@ skills-lock.json
 .env
 .env.*
 !.env.example
+.envrc
+.direnv/
+
+*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+*.tsbuildinfo
+IMPLEMENTATION_PLAN.md
 
 .DS_Store
 

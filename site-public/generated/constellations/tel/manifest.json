@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "tel",
+  "iauCode": "Tel",
+  "slug": "telescope",
+  "name": "Telescope",
+  "title": "Telescope",
+  "version": "2026.03-real",
+  "generatedAt": "2026-03-31T00:00:00Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -4.67,
+    "centerDecDeg": -51.04,
+    "radiusDeg": 13.9
+  },
+  "counts": {
+    "stars": 27,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/tel/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/tel/thumb.svg"
+  },
+  "includedTargets": []
+}

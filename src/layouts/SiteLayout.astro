@@ -22,6 +22,14 @@ const {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem('printablestarcharts-theme');
+        if (stored === 'night') {
+          document.documentElement.dataset.theme = 'night';
+        }
+      })();
+    </script>
   </head>
   <body>
     <SiteHeader />

@@ -56,8 +56,8 @@ The site should feel:
 - field-practical
 
 The default visual language should emphasize signage-level clarity, crisp
-vector marks, and restrained use of red. Red Night Mode must remain strictly
-red-on-black.
+vector marks, official sky boundaries/object positions, and restrained use of
+red. Red Night Mode must remain strictly red-on-black.
 
 ## Current document model
 - `AGENTS.md` defines how agents should work in this repo.
