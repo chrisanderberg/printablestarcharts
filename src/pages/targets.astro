@@ -1,0 +1,25 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import PageHeader from '../components/site/PageHeader.astro';
+import TargetManager from '../components/targets/TargetManager';
+import { loadTargets } from '../lib/artifacts/loadTargets';
+
+const canonicalTargets = await loadTargets();
+---
+
+<SiteLayout
+  title="Observing Targets | printablestarcharts"
+  description="Pin Messier targets to influence constellation sort order and check planisphere artifact compatibility."
+>
+  <div class="container page-section">
+    <PageHeader
+      eyebrow="Observing targets"
+      title="Pin your Messier targets."
+      description={`Browse all ${canonicalTargets.length} canonical Messier targets. Pin up to 6 to influence constellation sort order across the catalog and check planisphere artifact compatibility.`}
+    />
+    <TargetManager
+      client:load
+      canonicalTargets={canonicalTargets}
+    />
+  </div>
+</SiteLayout>

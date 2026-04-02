@@ -1,0 +1,31 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import PageHeader from '../components/site/PageHeader.astro';
+import PlanisphereResolver from '../components/planisphere/PlanisphereResolver';
+import { loadPlanispheres } from '../lib/artifacts/loadPlanispheres';
+import { loadTargets } from '../lib/artifacts/loadTargets';
+
+const planispheres = await loadPlanispheres();
+const canonicalTargets = await loadTargets();
+const latitudeBandCount = new Set(planispheres.map((p) => p.latitudeBand)).size;
+const base = import.meta.env.BASE_URL;
+---
+
+<SiteLayout
+  title="Planisphere Generator | printablestarcharts"
+  description="Generate a book-style planisphere for your location. 48 pages covering local sidereal time in half-hour steps, resolved from latitude, longitude, and timezone."
+>
+  <div class="container page-section">
+    <PageHeader
+      eyebrow="Planisphere generator"
+      title="Your sky, printed."
+      description={`Enter your coordinates to resolve the nearest of ${latitudeBandCount} pre-generated latitude bands. The result is a 50-page printable book covering the full night sky at your horizon for an entire year.`}
+    />
+    <PlanisphereResolver
+      client:load
+      planispheres={planispheres}
+      canonicalTargets={canonicalTargets}
+      basePath={base}
+    />
+  </div>
+</SiteLayout>

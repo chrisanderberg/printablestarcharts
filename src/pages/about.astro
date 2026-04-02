@@ -1,5 +1,6 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+import PageHeader from '../components/site/PageHeader.astro';
 import { loadConstellations } from '../lib/artifacts/loadConstellations';
 import { loadPlanispheres } from '../lib/artifacts/loadPlanispheres';
 import { loadTargets } from '../lib/artifacts/loadTargets';
@@ -7,61 +8,119 @@ import { loadTargets } from '../lib/artifacts/loadTargets';
 const constellations = await loadConstellations();
 const planispheres = await loadPlanispheres();
 const canonicalTargets = await loadTargets();
-const latitudeBandCount = new Set(planispheres.map((entry) => entry.latitudeBand)).size;
+const latitudeBandCount = new Set(planispheres.map((p) => p.latitudeBand)).size;
 ---
 
 <SiteLayout
   title="About | printablestarcharts"
   description="About the print-first, field-practical product model behind printablestarcharts."
 >
-  <section class="about">
-    <div class="container">
-      <div class="about-hero">
-        <span class="section-label">About</span>
-        <h1>Paper-first astronomy, with a strict red-light fallback.</h1>
+  <div class="container page-section">
+    <PageHeader
+      eyebrow="About"
+      title="Paper-first astronomy."
+      description="printablestarcharts exists for observers who would rather carry reliable paper into the field than wrestle with glare, battery life, dew, or distracting full-screen sky apps."
+    />
+
+    <div class="grid-3 about-section-grid">
+      <article class="card about-card">
+        <h2>What the MVP includes</h2>
+        <p>
+          {constellations.length} printable constellation charts, planisphere books across
+          {latitudeBandCount} latitude bands, and a canonical Messier target catalog with
+          forced-target compatibility checks.
+        </p>
+      </article>
+      <article class="card about-card">
+        <h2>What it excludes</h2>
+        <p>
+          Sun, moon, planets, eyepiece views, weather, coordinate grids, and any raw catalog ETL
+          logic living in the website itself.
+        </p>
+      </article>
+      <article class="card about-card">
+        <h2>Why the architecture matters</h2>
+        <p>
+          The public site is a static Astro app on GitHub Pages. It consumes generated manifests,
+          previews, and PDFs so the chart pipeline can evolve independently.
+        </p>
+      </article>
+    </div>
+
+    <div class="about-rules">
+      <div class="about-rules__header">
+        <span class="eyebrow">Design rules</span>
+        <h2>Calm, exact, and field-practical</h2>
         <p class="muted">
-          printablestarcharts exists for observers who would rather carry reliable paper into the field than wrestle with glare, battery life, dew, or distracting full-screen sky apps.
+          Light mode stays toner-friendly and print-like. Red Night Mode stays strictly red on
+          black. The goal is signage-level clarity, not decorative astronomy art.
         </p>
       </div>
-
-      <div class="about-grid">
-        <article class="about-section">
-          <h2>What the MVP includes</h2>
-          <p>{constellations.length} printable constellation charts, planisphere books across {latitudeBandCount} latitude bands, and a canonical Messier target catalog with forced-target compatibility checks.</p>
-        </article>
-        <article class="about-section">
-          <h2>What it excludes</h2>
-          <p>Sun, moon, planets, eyepiece views, weather, coordinate grids, and any raw catalog ETL logic living in the website itself.</p>
-        </article>
-        <article class="about-section">
-          <h2>Why the architecture matters</h2>
-          <p>The public site is a static Astro app on GitHub Pages. It consumes generated manifests, previews, and PDFs so the chart pipeline can evolve independently.</p>
-        </article>
-      </div>
-
-      <div class="panel">
-        <div class="section-heading">
-          <span class="section-label">Design rules</span>
-          <h2>Calm, exact, and field-practical</h2>
+      <div class="grid-3">
+        <article class="card about-card">
+          <h3>Print comes first</h3>
           <p>
-            Light mode stays toner-friendly and print-like. Red Night Mode stays strictly red on black. Across both modes, the goal is signage-level clarity, not decorative astronomy art.
+            PDF export is the primary deliverable, so the interface treats vector previews and
+            clear download paths as first-class content.
           </p>
-        </div>
-        <div class="workflow-grid">
-          <article class="workflow-step">
-            <strong>Print comes first</strong>
-            <p>PDF export is the primary deliverable, so the interface treats vector previews and clear download paths as first-class content.</p>
-          </article>
-          <article class="workflow-step">
-            <strong>Density stays controlled</strong>
-            <p>Charts are shaped around priority and readability rather than dumping every object onto the page.</p>
-          </article>
-          <article class="workflow-step">
-            <strong>Targets stay canonical</strong>
-            <p>{canonicalTargets.length} Messier IDs form the MVP target vocabulary so pinned-object behavior stays stable and reviewable.</p>
-          </article>
-        </div>
+        </article>
+        <article class="card about-card">
+          <h3>Density stays controlled</h3>
+          <p>
+            Charts are shaped around priority and readability rather than dumping every object onto
+            the page.
+          </p>
+        </article>
+        <article class="card about-card">
+          <h3>Targets stay canonical</h3>
+          <p>
+            {canonicalTargets.length} Messier IDs form the MVP target vocabulary so pinned-object
+            behavior stays stable and reviewable.
+          </p>
+        </article>
       </div>
     </div>
-  </section>
+  </div>
 </SiteLayout>
+
+<style>
+  .about-section-grid {
+    margin-bottom: 4rem;
+  }
+
+  .about-card {
+    padding: 1.5rem;
+    display: grid;
+    gap: 0.6rem;
+    align-content: start;
+  }
+
+  .about-card h2 {
+    font-size: 1.15rem;
+  }
+
+  .about-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .about-card p {
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+
+  .about-rules {
+    margin-top: 2rem;
+  }
+
+  .about-rules__header {
+    display: grid;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    max-width: 44rem;
+  }
+
+  .about-rules__header p {
+    font-size: 0.95rem;
+  }
+</style>

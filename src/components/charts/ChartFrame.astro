@@ -1,0 +1,23 @@
+---
+interface Props {
+  src?: string;
+  alt?: string;
+  size?: 'sm' | 'md' | 'lg' | 'full';
+  aspectRatio?: string;
+}
+
+const { src, alt = 'Star chart', size = 'md', aspectRatio } = Astro.props;
+---
+
+<div
+  class={`chart-frame chart-frame--${size}`}
+  style={aspectRatio ? `aspect-ratio: ${aspectRatio}` : undefined}
+>
+  {src ? (
+    <img src={src} alt={alt} loading="lazy" />
+  ) : (
+    <div class="chart-frame__empty">
+      <span>Preview unavailable</span>
+    </div>
+  )}
+</div>

@@ -1,0 +1,20 @@
+---
+import { REPO_ROOT } from '../../lib/github';
+import { SITE_NAME, SITE_TAGLINE } from '../../lib/site';
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <span class="site-footer__name">{SITE_NAME}</span>
+      <span class="site-footer__tagline">{SITE_TAGLINE}</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Footer">
+      <a href={`${import.meta.env.BASE_URL}constellations/`}>Constellations</a>
+      <a href={`${import.meta.env.BASE_URL}planisphere/`}>Planisphere</a>
+      <a href={`${import.meta.env.BASE_URL}targets/`}>Targets</a>
+      <a href={`${import.meta.env.BASE_URL}about/`}>About</a>
+      <a href={REPO_ROOT} target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </div>
+</footer>

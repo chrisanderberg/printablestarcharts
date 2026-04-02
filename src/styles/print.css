@@ -1,20 +1,21 @@
 @media print {
   .site-header,
-  .button-row,
+  .site-footer,
+  .btn-row,
   .night-toggle,
-  .browser-controls,
-  .target-input__row,
-  .planisphere-actions {
+  .catalog__controls,
+  .resolver__form,
+  .target-manager__input-row,
+  nav {
     display: none !important;
   }
 
   body {
     background: #fff;
+    color: #000;
   }
 
-  .hero,
-  .workbench,
-  .about {
+  .page-section {
     padding: 0;
   }
 }

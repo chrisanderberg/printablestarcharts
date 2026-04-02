@@ -1,0 +1,27 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PageHeader from '../../components/site/PageHeader.astro';
+import ConstellationCatalog from '../../components/charts/ConstellationCatalog';
+import { loadConstellations } from '../../lib/artifacts/loadConstellations';
+
+const constellations = await loadConstellations();
+const base = import.meta.env.BASE_URL;
+---
+
+<SiteLayout
+  title="Constellation Atlas | printablestarcharts"
+  description="Printable star charts for all 88 IAU constellations. Download PDF charts with real stars, IAU boundary lines, and Messier objects."
+>
+  <div class="container page-section">
+    <PageHeader
+      eyebrow="Constellation atlas"
+      title={`All ${constellations.length} IAU constellations`}
+      description="Each chart ships as a letter-sized PDF with real stars from the Hipparcos catalog, dotted IAU boundary lines, and Messier objects where applicable. Click any chart to see the full detail view."
+    />
+    <ConstellationCatalog
+      client:load
+      constellations={constellations}
+      basePath={base}
+    />
+  </div>
+</SiteLayout>

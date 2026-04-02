@@ -1,0 +1,248 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Breadcrumb from '../../components/site/Breadcrumb.astro';
+import ChartFrame from '../../components/charts/ChartFrame.astro';
+import { loadConstellations } from '../../lib/artifacts/loadConstellations';
+import { withBasePath } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const constellations = await loadConstellations();
+  return constellations.map((constellation, index) => ({
+    params: { slug: constellation.slug },
+    props: {
+      constellation,
+      prev: constellations[index - 1] ?? null,
+      next: constellations[index + 1] ?? null,
+    },
+  }));
+}
+
+const { constellation, prev, next } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<SiteLayout
+  title={`${constellation.name} | printablestarcharts`}
+  description={`Printable star chart for ${constellation.name} (${constellation.iauCode}). ${constellation.counts.stars} stars and ${constellation.counts.messier} Messier objects.`}
+>
+  <div class="detail-page">
+    <div class="container">
+      <Breadcrumb
+        items={[
+          { label: 'Constellations', href: `${base}constellations/` },
+          { label: constellation.name },
+        ]}
+      />
+    </div>
+
+    <div class="detail-hero">
+      <ChartFrame
+        src={constellation.files.thumbnailSvg
+          ? withBasePath(base, constellation.files.thumbnailSvg)
+          : undefined}
+        alt={`${constellation.name} star chart`}
+        size="full"
+      />
+    </div>
+
+    <div class="container">
+      <div class="detail-body">
+        <div class="detail-main">
+          <div class="detail-title">
+            <h1>{constellation.name}</h1>
+            <span class="mono muted">{constellation.iauCode}</span>
+          </div>
+
+          <div class="tag-row">
+            <span class="tag">{constellation.hemisphereBias}</span>
+            {constellation.seasons.map((s) => (
+              <span class="tag">{s}</span>
+            ))}
+            <span class="tag">{constellation.counts.stars} stars</span>
+            <span class="tag">{constellation.counts.messier} Messier</span>
+          </div>
+
+          {constellation.includedTargets.length > 0 && (
+            <div class="detail-targets">
+              <p class="detail-targets__heading">Messier objects included</p>
+              <div class="tag-row">
+                {constellation.includedTargets.map((t) => (
+                  <span class="tag tag--accent">{t.label}</span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div class="btn-row">
+            <a
+              class="btn"
+              href={withBasePath(base, constellation.files.pdf)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download PDF
+            </a>
+            <a
+              class="btn--ghost"
+              href={withBasePath(base, constellation.manifestPath)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              View manifest
+            </a>
+          </div>
+        </div>
+
+        <aside class="detail-meta card">
+          <dl class="meta-list">
+            <div class="meta-list__item">
+              <dt>Page size</dt>
+              <dd>{constellation.page.size.toUpperCase()} {constellation.page.orientation}</dd>
+            </div>
+            <div class="meta-list__item">
+              <dt>Coverage</dt>
+              <dd>{constellation.coverage.radiusDeg.toFixed(1)}° radius</dd>
+            </div>
+            <div class="meta-list__item">
+              <dt>Stars</dt>
+              <dd>{constellation.counts.stars}</dd>
+            </div>
+            <div class="meta-list__item">
+              <dt>Messier objects</dt>
+              <dd>{constellation.counts.messier}</dd>
+            </div>
+            <div class="meta-list__item">
+              <dt>IAU code</dt>
+              <dd class="mono">{constellation.iauCode}</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+
+      <div class="artifact-nav">
+        {prev ? (
+          <a
+            class="artifact-nav__link"
+            href={withBasePath(base, `constellations/${prev.slug}/`)}
+          >
+            <span class="artifact-nav__label">← Previous</span>
+            <span class="artifact-nav__name">{prev.name}</span>
+          </a>
+        ) : (
+          <div />
+        )}
+        {next ? (
+          <a
+            class="artifact-nav__link artifact-nav__link--next"
+            href={withBasePath(base, `constellations/${next.slug}/`)}
+          >
+            <span class="artifact-nav__label">Next →</span>
+            <span class="artifact-nav__name">{next.name}</span>
+          </a>
+        ) : (
+          <div />
+        )}
+      </div>
+    </div>
+  </div>
+</SiteLayout>
+
+<style>
+  .detail-page {
+    padding-bottom: var(--space-16);
+  }
+
+  .detail-hero {
+    margin: var(--space-5) 0 var(--space-8);
+  }
+
+  .detail-hero :global(.chart-frame) {
+    border-radius: 0;
+  }
+
+  .detail-body {
+    display: grid;
+    grid-template-columns: 1fr 17rem;
+    gap: var(--space-8);
+    align-items: start;
+    margin-bottom: var(--space-8);
+  }
+
+  .detail-main {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  .detail-title {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .detail-title h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 1;
+  }
+
+  .detail-targets__heading {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    margin-bottom: var(--space-2);
+    font-family: var(--font-body);
+  }
+
+  .detail-meta {
+    padding: var(--space-5);
+    position: sticky;
+    top: calc(3.75rem + 1rem);
+  }
+
+  .meta-list {
+    display: grid;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .meta-list__item {
+    display: grid;
+    gap: 0.2rem;
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .meta-list__item:first-child {
+    padding-top: 0;
+  }
+
+  .meta-list__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .meta-list__item dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+
+  .meta-list__item dd {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 900px) {
+    .detail-body {
+      grid-template-columns: 1fr;
+    }
+
+    .detail-meta {
+      position: static;
+      order: -1;
+    }
+  }
+</style>
