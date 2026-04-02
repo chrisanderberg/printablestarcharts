@@ -1,0 +1,11 @@
+reviews:
+  path_filters:
+    - "!site-public/generated/**"
+    - "!package-lock.json"
+    - "AGENTS.md"
+    - "PROJECT.md"
+    - "REQUIREMENTS.md"
+    - "astro.config.ts"
+    - "package.json"
+    - "scripts/**"
+    - "src/**"

@@ -17,6 +17,36 @@ interface Props {
   basePath: string;
 }
 
+function formatDateInputValue(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function parseObservingDate(value: string) {
+  const match = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) {
+    return null;
+  }
+
+  const [, rawYear, rawMonth, rawDay] = match;
+  const year = Number(rawYear);
+  const monthIndex = Number(rawMonth) - 1;
+  const day = Number(rawDay);
+  const parsed = new Date(Date.UTC(year, monthIndex, day, 12));
+
+  if (
+    parsed.getUTCFullYear() !== year ||
+    parsed.getUTCMonth() !== monthIndex ||
+    parsed.getUTCDate() !== day
+  ) {
+    return null;
+  }
+
+  return parsed;
+}
+
 export default function PlanisphereForm({
   planispheres,
   canonicalTargets,
@@ -26,15 +56,15 @@ export default function PlanisphereForm({
   const [latitude, setLatitude] = useState('37.5');
   const [longitude, setLongitude] = useState('-122.0');
   const [timeZone, setTimeZone] = useState('America/Los_Angeles');
-  const [observingDate, setObservingDate] = useState(() => new Date().toISOString().slice(0, 10));
+  const [observingDate, setObservingDate] = useState(() => formatDateInputValue());
 
   const parsedLatitude = Number(latitude);
   const parsedLongitude = Number(longitude);
-  const observingDateValue = new Date(`${observingDate}T12:00:00Z`);
+  const observingDateValue = parseObservingDate(observingDate);
   const hasNumericLocation = Number.isFinite(parsedLatitude) && Number.isFinite(parsedLongitude);
   const resolution =
     hasNumericLocation &&
-    Number.isFinite(observingDateValue.getTime()) &&
+    observingDateValue &&
     parsedLatitude >= -90 &&
     parsedLatitude <= 90 &&
     parsedLongitude >= -180 &&
@@ -51,11 +81,29 @@ export default function PlanisphereForm({
       <div className="planisphere-form__grid">
         <div className="planisphere-field">
           <label htmlFor="latitude">Latitude</label>
-          <input id="latitude" value={latitude} onChange={(event) => setLatitude(event.target.value)} />
+          <input
+            id="latitude"
+            type="number"
+            inputMode="decimal"
+            min="-90"
+            max="90"
+            step="0.1"
+            value={latitude}
+            onChange={(event) => setLatitude(event.target.value)}
+          />
         </div>
         <div className="planisphere-field">
           <label htmlFor="longitude">Longitude</label>
-          <input id="longitude" value={longitude} onChange={(event) => setLongitude(event.target.value)} />
+          <input
+            id="longitude"
+            type="number"
+            inputMode="decimal"
+            min="-180"
+            max="180"
+            step="0.1"
+            value={longitude}
+            onChange={(event) => setLongitude(event.target.value)}
+          />
         </div>
         <div className="planisphere-field">
           <label htmlFor="timezone">Time zone</label>
@@ -91,10 +139,14 @@ export default function PlanisphereForm({
       ) : (
         <article className="planisphere-result">
           <div className="planisphere-result__preview">
-            <img
-              src={withBasePath(basePath, resolution.artifact.files.thumbnailSvg ?? '')}
-              alt="Planisphere preview"
-            />
+            {resolution.artifact.files.thumbnailSvg ? (
+              <img
+                src={withBasePath(basePath, resolution.artifact.files.thumbnailSvg)}
+                alt="Planisphere preview"
+              />
+            ) : (
+              <div className="planisphere-result__empty">Preview unavailable</div>
+            )}
           </div>
           <div className="planisphere-result__body">
             <div>

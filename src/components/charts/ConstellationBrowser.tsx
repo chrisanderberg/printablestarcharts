@@ -20,6 +20,7 @@ export default function ConstellationBrowser({
   const [showPinnedOnly, setShowPinnedOnly] = useState(false);
 
   const normalizedQuery = query.trim().toLowerCase();
+  const selectedTargetIdSet = new Set(selectedTargetIds);
   const filtered = constellations
     .filter((constellation) => {
       if (hemisphere !== 'all' && constellation.hemisphereBias !== hemisphere) {
@@ -36,15 +37,15 @@ export default function ConstellationBrowser({
       ) {
         return false;
       }
-      const hasPinnedMatch = constellation.includedTargets.some((target) => selectedTargetIds.includes(target.id));
+      const hasPinnedMatch = constellation.includedTargets.some((target) => selectedTargetIdSet.has(target.id));
       if (showPinnedOnly && selectedTargetIds.length && !hasPinnedMatch) {
         return false;
       }
       return true;
     })
     .sort((left, right) => {
-      const leftMatches = left.includedTargets.filter((target) => selectedTargetIds.includes(target.id)).length;
-      const rightMatches = right.includedTargets.filter((target) => selectedTargetIds.includes(target.id)).length;
+      const leftMatches = left.includedTargets.filter((target) => selectedTargetIdSet.has(target.id)).length;
+      const rightMatches = right.includedTargets.filter((target) => selectedTargetIdSet.has(target.id)).length;
       if (rightMatches !== leftMatches) {
         return rightMatches - leftMatches;
       }
@@ -86,15 +87,19 @@ export default function ConstellationBrowser({
 
       <div className="constellation-grid">
         {filtered.map((constellation) => {
-          const matchedTargets = constellation.includedTargets.filter((target) => selectedTargetIds.includes(target.id));
+          const matchedTargets = constellation.includedTargets.filter((target) => selectedTargetIdSet.has(target.id));
           return (
             <article key={constellation.id} className="constellation-card">
               <div className="constellation-card__image">
-                <img
-                  src={withBasePath(basePath, constellation.files.thumbnailSvg ?? '')}
-                  alt={`${constellation.name} preview`}
-                  loading="lazy"
-                />
+                {constellation.files.thumbnailSvg ? (
+                  <img
+                    src={withBasePath(basePath, constellation.files.thumbnailSvg)}
+                    alt={`${constellation.name} preview`}
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="constellation-card__empty">Preview unavailable</div>
+                )}
               </div>
               <div className="constellation-card__body">
                 <div className="constellation-card__title">
@@ -121,7 +126,7 @@ export default function ConstellationBrowser({
                     constellation.includedTargets.slice(0, 5).map((target) => (
                       <span
                         key={target.id}
-                        className={`pill ${selectedTargetIds.includes(target.id) ? 'pill--accent' : ''}`}
+                        className={`pill ${selectedTargetIdSet.has(target.id) ? 'pill--accent' : ''}`}
                       >
                         {target.label}
                       </span>

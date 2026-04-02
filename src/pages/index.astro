@@ -49,7 +49,11 @@ const latitudeBandCount = new Set(planispheres.map((entry) => entry.latitudeBand
       <div class="hero__preview">
         <article class="preview-card">
           <div class="preview-card__frame">
-            <img src={withBasePath(import.meta.env.BASE_URL, previewConstellation.files.thumbnailSvg ?? '')} alt="Print preview constellation chart" />
+            {previewConstellation.files.thumbnailSvg ? (
+              <img src={withBasePath(import.meta.env.BASE_URL, previewConstellation.files.thumbnailSvg)} alt="Print preview constellation chart" />
+            ) : (
+              <div class="preview-card__empty muted">Preview unavailable</div>
+            )}
           </div>
           <div class="preview-card__body">
             <span class="preview-card__eyebrow">Print preview</span>
@@ -60,7 +64,11 @@ const latitudeBandCount = new Set(planispheres.map((entry) => entry.latitudeBand
 
         <article class="preview-card">
           <div class="preview-card__frame preview-card__frame--night">
-            <img src={withBasePath(import.meta.env.BASE_URL, previewPlanisphere.files.thumbnailSvg ?? '')} alt="Night preview planisphere chart" />
+            {previewPlanisphere.files.thumbnailSvg ? (
+              <img src={withBasePath(import.meta.env.BASE_URL, previewPlanisphere.files.thumbnailSvg)} alt="Night preview planisphere chart" />
+            ) : (
+              <div class="preview-card__empty muted">Preview unavailable</div>
+            )}
           </div>
           <div class="preview-card__body">
             <span class="preview-card__eyebrow">Red Night Mode</span>

@@ -208,6 +208,13 @@ html[data-theme='night'] .button {
   background: var(--paper-muted);
 }
 
+.preview-card__empty {
+  min-height: 12rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
 .preview-card__frame--night {
   background: #050505;
 }
@@ -378,6 +385,19 @@ html[data-theme='night'] .button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.constellation-card__empty,
+.planisphere-result__empty {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 12rem;
+  height: 100%;
+  padding: 1rem;
+  color: var(--ink-soft);
+  text-align: center;
+  font-size: 0.95rem;
 }
 
 .constellation-card__body {

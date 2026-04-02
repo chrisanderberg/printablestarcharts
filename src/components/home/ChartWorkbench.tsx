@@ -2,13 +2,30 @@ import { useEffect, useState } from 'react';
 
 import type { LoadedConstellation } from '@/lib/artifacts/loadConstellations';
 import type { LoadedPlanisphere } from '@/lib/artifacts/loadPlanispheres';
-import type { CanonicalTarget } from '@/lib/artifacts/types';
+import type {
+  CanonicalTarget,
+  CanonicalTargetCollection,
+  ConstellationIndex,
+  ConstellationManifest,
+  PlanisphereIndex,
+  PlanisphereManifest,
+} from '@/lib/artifacts/types';
 import ConstellationBrowser from '@/components/charts/ConstellationBrowser';
 import PlanisphereForm from '@/components/planisphere/PlanisphereForm';
 import ForcedTargetInput from '@/components/targets/ForcedTargetInput';
+import { withBasePath } from '@/lib/site';
 
 interface Props {
   basePath: string;
+}
+
+async function fetchJson<T>(input: string, signal: AbortSignal): Promise<T> {
+  const response = await fetch(input, { signal });
+  if (!response.ok) {
+    throw new Error(`Failed to load ${input}: ${response.status} ${response.statusText}`);
+  }
+
+  return response.json() as Promise<T>;
 }
 
 export default function ChartWorkbench({
@@ -23,7 +40,7 @@ export default function ChartWorkbench({
   const latitudeBands = [...new Set(planispheres.map((artifact) => artifact.latitudeBand))];
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
 
     async function loadWorkbenchData() {
       try {
@@ -31,36 +48,47 @@ export default function ChartWorkbench({
         setLoadError(null);
 
         const [constellationIndex, planisphereIndex, targetIndex] = await Promise.all([
-          fetch(`${basePath}generated/constellations/index.json`).then((response) => response.json()),
-          fetch(`${basePath}generated/planispheres/index.json`).then((response) => response.json()),
-          fetch(`${basePath}generated/targets/index.json`).then((response) => response.json()),
+          fetchJson<ConstellationIndex>(
+            withBasePath(basePath, '/generated/constellations/index.json'),
+            controller.signal
+          ),
+          fetchJson<PlanisphereIndex>(
+            withBasePath(basePath, '/generated/planispheres/index.json'),
+            controller.signal
+          ),
+          fetchJson<CanonicalTargetCollection>(
+            withBasePath(basePath, '/generated/targets/index.json'),
+            controller.signal
+          ),
         ]);
 
         const [constellationManifests, planisphereManifests] = await Promise.all([
           Promise.all(
             constellationIndex.items.map((item: { manifestPath: string }) =>
-              fetch(`${basePath}${item.manifestPath.replace(/^\//, '')}`).then((response) => response.json())
+              fetchJson<ConstellationManifest>(
+                withBasePath(basePath, item.manifestPath),
+                controller.signal
+              )
             )
           ),
           Promise.all(
             planisphereIndex.items.map((item: { manifestPath: string }) =>
-              fetch(`${basePath}${item.manifestPath.replace(/^\//, '')}`).then((response) => response.json())
+              fetchJson<PlanisphereManifest>(
+                withBasePath(basePath, item.manifestPath),
+                controller.signal
+              )
             )
           ),
         ]);
 
-        if (cancelled) {
-          return;
-        }
-
         setConstellations(
-          constellationIndex.items.map((item: LoadedConstellation, index: number) => ({
+          constellationIndex.items.map((item, index) => ({
             ...item,
             ...constellationManifests[index],
           }))
         );
         setPlanispheres(
-          planisphereIndex.items.map((item: LoadedPlanisphere, index: number) => ({
+          planisphereIndex.items.map((item, index) => ({
             ...item,
             ...planisphereManifests[index],
           }))
@@ -68,7 +96,7 @@ export default function ChartWorkbench({
         setCanonicalTargets(targetIndex.items);
         setLoading(false);
       } catch (error) {
-        if (cancelled) {
+        if (controller.signal.aborted) {
           return;
         }
         setLoadError(error instanceof Error ? error.message : 'Failed to load generated chart data.');
@@ -79,7 +107,7 @@ export default function ChartWorkbench({
     loadWorkbenchData();
 
     return () => {
-      cancelled = true;
+      controller.abort();
     };
   }, [basePath]);
 
