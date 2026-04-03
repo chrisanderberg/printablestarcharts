@@ -72,10 +72,10 @@ async function main() {
   };
 
   for (const constellation of constellations) {
-    const polygons = constellationBounds.get(constellation.iauCode);
+    const polygons = constellationBounds.get(constellation.id);
     if (!polygons?.length) {
       console.warn(
-        `Skipping constellation ${constellation.iauCode} (${constellation.name}): no polygons or bounds found.`,
+        `Skipping constellation ${constellation.id} (${constellation.name}, ${constellation.iauCode}): no polygons or bounds found.`,
       );
       continue;
     }
@@ -131,7 +131,7 @@ async function main() {
 
     await writeJson(path.join(directory, 'manifest.json'), manifest);
     await writeFile(path.join(directory, 'thumb.svg'), artifacts.svg, 'utf8');
-    await writeFile(path.join(directory, 'chart.pdf'), artifacts.pdf, 'utf8');
+    await writeFile(path.join(directory, 'chart.pdf'), artifacts.pdf);
   }
 
   constellationIndex.items.sort((left, right) => left.name.localeCompare(right.name));
