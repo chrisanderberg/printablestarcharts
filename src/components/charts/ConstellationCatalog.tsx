@@ -98,7 +98,7 @@ export default function ConstellationCatalog({ constellations, basePath }: Props
             <a
               key={c.id}
               className="constellation-card"
-              href={withBasePath(basePath, `constellations/${c.slug}/`)}
+              href={withBasePath(basePath, `constellations/${c.routeSlug}/`)}
             >
               <div className="constellation-card__frame">
                 {c.files.thumbnailSvg ? (

@@ -8,7 +8,7 @@ import { withBasePath } from '../../lib/site';
 export async function getStaticPaths() {
   const constellations = await loadConstellations();
   return constellations.map((constellation, index) => ({
-    params: { slug: constellation.slug },
+    params: { slug: constellation.routeSlug },
     props: {
       constellation,
       prev: constellations[index - 1] ?? null,
@@ -123,7 +123,7 @@ const base = import.meta.env.BASE_URL;
         {prev ? (
           <a
             class="artifact-nav__link"
-            href={withBasePath(base, `constellations/${prev.slug}/`)}
+            href={withBasePath(base, `constellations/${prev.routeSlug}/`)}
           >
             <span class="artifact-nav__label">← Previous</span>
             <span class="artifact-nav__name">{prev.name}</span>
@@ -134,7 +134,7 @@ const base = import.meta.env.BASE_URL;
         {next ? (
           <a
             class="artifact-nav__link artifact-nav__link--next"
-            href={withBasePath(base, `constellations/${next.slug}/`)}
+            href={withBasePath(base, `constellations/${next.routeSlug}/`)}
           >
             <span class="artifact-nav__label">Next →</span>
             <span class="artifact-nav__name">{next.name}</span>
