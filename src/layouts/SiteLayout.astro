@@ -31,9 +31,13 @@ const {
     />
     <script is:inline>
       (() => {
-        const stored = localStorage.getItem('printablestarcharts-theme');
-        if (stored === 'night') {
-          document.documentElement.dataset.theme = 'night';
+        try {
+          const stored = localStorage.getItem('printablestarcharts-theme');
+          if (stored === 'night') {
+            document.documentElement.dataset.theme = 'night';
+          }
+        } catch {
+          // Ignore storage access failures so the page still renders.
         }
       })();
     </script>

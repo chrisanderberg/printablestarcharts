@@ -8,7 +8,12 @@ function applyTheme(next: 'light' | 'night') {
   } else {
     delete document.documentElement.dataset.theme;
   }
-  localStorage.setItem(STORAGE_KEY, next);
+
+  try {
+    localStorage.setItem(STORAGE_KEY, next);
+  } catch {
+    // Ignore storage access failures and keep the in-memory toggle working.
+  }
 }
 
 export default function NightModeToggle() {
