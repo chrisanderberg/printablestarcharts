@@ -80,6 +80,7 @@ export default function ConstellationCatalog({ constellations, basePath }: Props
             type="button"
             className="btn--ghost"
             onClick={() => setShowPinnedOnly((v) => !v)}
+            aria-pressed={showPinnedOnly}
           >
             {showPinnedOnly ? 'Show all' : 'Show pinned matches'}
           </button>

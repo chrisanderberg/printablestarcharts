@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import type { CanonicalTarget } from '@/lib/artifacts/types';
 import { resolveForcedTargets } from '@/lib/artifacts/resolveForcedTargets';
-import { usePinnedTargets } from '@/lib/usePinnedTargets';
+import { MAX_PINNED_TARGETS, usePinnedTargets } from '@/lib/usePinnedTargets';
 
 interface Props {
   canonicalTargets: CanonicalTarget[];
@@ -26,23 +26,45 @@ export default function TargetManager({ canonicalTargets }: Props) {
 
     const resolved = resolveForcedTargets(parts, canonicalTargets);
     const nextIds = [...targetIds];
+    const addedLabels: string[] = [];
+    const blockedLabels: string[] = [];
+
     for (const t of resolved.supported) {
-      if (!nextIds.includes(t.normalizedId)) nextIds.push(t.normalizedId);
+      if (nextIds.includes(t.normalizedId)) {
+        continue;
+      }
+
+      if (nextIds.length >= MAX_PINNED_TARGETS) {
+        blockedLabels.push(t.matchedLabel);
+        continue;
+      }
+
+      nextIds.push(t.normalizedId);
+      addedLabels.push(t.matchedLabel);
     }
-    setTargetIds(nextIds.slice(0, 6));
+
+    setTargetIds(nextIds);
     setInputValue('');
 
-    if (resolved.unsupported.length) {
-      setFeedback(
-        `Unknown target: ${resolved.unsupported[0].input}. Try a Messier ID like M31 or M42.`
-      );
-    } else {
-      setFeedback(
-        resolved.supported.length
-          ? `Pinned ${resolved.supported.map((t) => t.matchedLabel).join(', ')}.`
-          : 'No new targets added.'
+    const messages: string[] = [];
+
+    if (addedLabels.length) {
+      messages.push(`Pinned ${addedLabels.join(', ')}.`);
+    }
+
+    if (blockedLabels.length) {
+      messages.push(
+        `Limit is ${MAX_PINNED_TARGETS}. Remove one pinned target to add ${blockedLabels.join(', ')}.`
       );
     }
+
+    if (resolved.unsupported.length) {
+      messages.push(
+        `Unknown target: ${resolved.unsupported[0].input}. Try a Messier ID like M31 or M42.`
+      );
+    }
+
+    setFeedback(messages.length ? messages.join(' ') : 'No new targets added.');
   }
 
   function removeTarget(id: string) {
@@ -53,7 +75,7 @@ export default function TargetManager({ canonicalTargets }: Props) {
     if (targetIds.includes(id)) {
       removeTarget(id);
     } else {
-      setTargetIds([...targetIds, id].slice(0, 6));
+      setTargetIds([...targetIds, id].slice(0, MAX_PINNED_TARGETS));
     }
   }
 
@@ -119,7 +141,7 @@ export default function TargetManager({ canonicalTargets }: Props) {
         <div className="target-catalog-grid">
           {canonicalTargets.map((t) => {
             const isPinned = targetIds.includes(t.id);
-            const canPin = !isPinned && targetIds.length < 6;
+            const canPin = !isPinned && targetIds.length < MAX_PINNED_TARGETS;
             return (
               <div
                 key={t.id}
