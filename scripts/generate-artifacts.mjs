@@ -1,10 +1,11 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 import { loadCatalogData } from '../src/lib/chart-core/data.js';
 import { createConstellationArtifacts, createPlanispherePdf, createPlanispherePreview } from '../src/lib/chart-core/render.js';
 
-const ROOT = process.cwd();
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const GENERATED_ROOT = path.join(ROOT, 'site-public', 'generated');
 const CONSTELLATION_ROOT = path.join(GENERATED_ROOT, 'constellations');
 const PLANISPHERE_ROOT = path.join(GENERATED_ROOT, 'planispheres');
@@ -49,6 +50,15 @@ function formatOffsetLabel(minutes) {
   return `UTC${sign}${hours}:${mins}`;
 }
 
+function toRadians(degrees) {
+  return (degrees * Math.PI) / 180;
+}
+
+function smallestSignedAngleDifference(degrees, referenceDegrees) {
+  const wrappedDifference = ((degrees - referenceDegrees + 540) % 360) - 180;
+  return wrappedDifference === -180 ? 180 : wrappedDifference;
+}
+
 async function ensureDir(directory) {
   await mkdir(directory, { recursive: true });
 }
@@ -84,6 +94,16 @@ async function main() {
     await ensureDir(directory);
 
     const artifacts = createConstellationArtifacts(constellation, polygons, stars, messierObjects);
+    const centerDecRadians = toRadians(constellation.displayCenterDecDeg);
+    const maxDistanceDeg = Math.max(
+      ...polygons.flat().map((point) => {
+        const deltaDec = point.decDeg - constellation.displayCenterDecDeg;
+        const deltaRa =
+          smallestSignedAngleDifference(point.raDeg, constellation.displayCenterRaDeg) *
+          Math.cos(centerDecRadians);
+        return Math.hypot(deltaDec, deltaRa);
+      }),
+    );
     const manifest = {
       schemaVersion: '1',
       artifactType: 'constellation-chart',
@@ -101,7 +121,7 @@ async function main() {
       coverage: {
         centerRaHours: Number((constellation.displayCenterRaDeg / 15).toFixed(2)),
         centerDecDeg: Number(constellation.displayCenterDecDeg.toFixed(2)),
-        radiusDeg: Number((Math.max(...polygons.flat().map((point) => Math.abs(point.decDeg - constellation.displayCenterDecDeg))) + 8).toFixed(1)),
+        radiusDeg: Number((maxDistanceDeg + 8).toFixed(1)),
       },
       counts: {
         stars: artifacts.stats.stars,
