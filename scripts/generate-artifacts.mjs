@@ -93,7 +93,13 @@ async function main() {
     const directory = path.join(CONSTELLATION_ROOT, constellation.id.toLowerCase());
     await ensureDir(directory);
 
+    const preferredOrientation = pageOrientationForBounds(polygons);
     const artifacts = createConstellationArtifacts(constellation, polygons, stars, messierObjects);
+    if (preferredOrientation !== 'portrait') {
+      console.warn(
+        `Constellation ${constellation.id} (${constellation.name}) prefers ${preferredOrientation}, but createConstellationArtifacts currently renders a fixed portrait PDF; manifest remains portrait until landscape output is implemented.`,
+      );
+    }
     const centerDecRadians = toRadians(constellation.displayCenterDecDeg);
     const maxDistanceDeg = Math.max(
       ...polygons.flat().map((point) => {
@@ -116,7 +122,7 @@ async function main() {
       generatedAt: GENERATED_AT,
       page: {
         size: 'letter',
-        orientation: pageOrientationForBounds(polygons),
+        orientation: 'portrait',
       },
       coverage: {
         centerRaHours: Number((constellation.displayCenterRaDeg / 15).toFixed(2)),
