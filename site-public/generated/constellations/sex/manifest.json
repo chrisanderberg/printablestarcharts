@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "sex",
+  "iauCode": "Sex",
+  "slug": "sextant",
+  "name": "Sextant",
+  "title": "Sextant",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 10.27,
+    "centerDecDeg": -2.61,
+    "radiusDeg": 17
+  },
+  "counts": {
+    "stars": 17,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/sex/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/sex/thumb.svg"
+  },
+  "includedTargets": []
+}

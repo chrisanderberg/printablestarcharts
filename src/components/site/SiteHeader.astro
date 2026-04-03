@@ -1,0 +1,19 @@
+---
+import { REPO_ROOT } from '../../lib/github';
+import { SITE_NAME } from '../../lib/site';
+import NightModeToggle from './NightModeToggle';
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href={`${import.meta.env.BASE_URL}`}>{SITE_NAME}</a>
+    <nav class="site-header__nav" aria-label="Primary">
+      <a href={`${import.meta.env.BASE_URL}constellations/`}>Constellations</a>
+      <a href={`${import.meta.env.BASE_URL}planisphere/`}>Planisphere</a>
+      <a href={`${import.meta.env.BASE_URL}targets/`}>Targets</a>
+      <a href={`${import.meta.env.BASE_URL}about/`}>About</a>
+      <a href={REPO_ROOT} target="_blank" rel="noreferrer">GitHub</a>
+      <NightModeToggle client:load />
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "boo",
+  "iauCode": "Boo",
+  "slug": "herdsman",
+  "name": "Herdsman",
+  "title": "Herdsman",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -9.33,
+    "centerDecDeg": 31,
+    "radiusDeg": 32
+  },
+  "counts": {
+    "stars": 86,
+    "messier": 7,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/boo/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/boo/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m5",
+      "label": "M5",
+      "type": "messier"
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "type": "messier"
+    },
+    {
+      "id": "m53",
+      "label": "M53",
+      "type": "messier"
+    },
+    {
+      "id": "m101",
+      "label": "M101",
+      "type": "messier"
+    },
+    {
+      "id": "m51",
+      "label": "M51",
+      "type": "messier"
+    },
+    {
+      "id": "m63",
+      "label": "M63",
+      "type": "messier"
+    },
+    {
+      "id": "m102",
+      "label": "M102",
+      "type": "messier"
+    }
+  ]
+}

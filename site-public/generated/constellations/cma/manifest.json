@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cma",
+  "iauCode": "CMa",
+  "slug": "great-dog",
+  "name": "Great Dog",
+  "title": "Great Dog",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 6.83,
+    "centerDecDeg": -22.14,
+    "radiusDeg": 19.1
+  },
+  "counts": {
+    "stars": 90,
+    "messier": 4,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cma/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cma/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m47",
+      "label": "M47",
+      "type": "messier"
+    },
+    {
+      "id": "m41",
+      "label": "M41",
+      "type": "messier"
+    },
+    {
+      "id": "m50",
+      "label": "M50",
+      "type": "messier"
+    },
+    {
+      "id": "m46",
+      "label": "M46",
+      "type": "messier"
+    }
+  ]
+}

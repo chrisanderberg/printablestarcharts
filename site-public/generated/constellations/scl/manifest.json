@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "scl",
+  "iauCode": "Scl",
+  "slug": "sculptor",
+  "name": "Sculptor",
+  "title": "Sculptor",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -23.56,
+    "centerDecDeg": -32.09,
+    "radiusDeg": 15.3
+  },
+  "counts": {
+    "stars": 33,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/scl/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/scl/thumb.svg"
+  },
+  "includedTargets": []
+}

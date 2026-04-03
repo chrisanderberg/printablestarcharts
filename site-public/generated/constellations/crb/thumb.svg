@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="663.2048434093434" viewBox="0 0 760 663.2048434093434">
+  <rect width="760" height="663.2048434093434" rx="28" fill="#fffdf8"/>
+  <rect x="16" y="16" width="728" height="631.2048434093434" rx="20" fill="none" stroke="#171412" stroke-width="1.2"/>
+  <path d="M 150.3 517.4 L 148.0 333.9 L 248.3 333.0 L 245.5 149.4 L 372.4 148.2 L 606.4 145.8 L 612.0 486.6 L 545.0 487.3 L 545.3 513.6 L 491.7 514.1 L 150.3 517.4 Z" fill="none" stroke="#968774" stroke-width="1.15" stroke-dasharray="4 6"/>
+  <circle cx="273.2" cy="486.6" r="3.51" fill="#11100f"/>
+  <circle cx="144.3" cy="313.5" r="2.79" fill="#11100f"/>
+  <circle cx="227.1" cy="423.9" r="2.68" fill="#11100f"/>
+  <circle cx="327.3" cy="497.6" r="2.59" fill="#11100f"/>
+  <circle cx="261.4" cy="364.8" r="2.40" fill="#11100f"/>
+  <circle cx="427.0" cy="482.3" r="2.40" fill="#11100f"/>
+  <circle cx="672.3" cy="74.3" r="2.36" fill="#11100f"/>
+  <circle cx="204.7" cy="207.0" r="2.30" fill="#11100f"/>
+  <circle cx="70.0" cy="480.5" r="2.18" fill="#11100f"/>
+  <circle cx="373.3" cy="503.5" r="2.14" fill="#11100f"/>
+  <circle cx="394.0" cy="73.9" r="2.13" fill="#11100f"/>
+  <circle cx="304.7" cy="226.4" r="2.11" fill="#11100f"/>
+  <circle cx="503.5" cy="230.2" r="2.06" fill="#11100f"/>
+  <circle cx="384.3" cy="252.1" r="2.02" fill="#11100f"/>
+  <circle cx="54.3" cy="531.3" r="2.02" fill="#11100f"/>
+  <circle cx="458.6" cy="589.1" r="2.00" fill="#11100f"/>
+  <circle cx="635.6" cy="88.9" r="2.00" fill="#11100f"/>
+  <circle cx="591.6" cy="377.0" r="1.98" fill="#11100f"/>
+  <circle cx="89.2" cy="535.0" r="1.94" fill="#11100f"/>
+  <circle cx="253.7" cy="114.6" r="1.91" fill="#11100f"/>
+  <circle cx="452.9" cy="404.3" r="1.91" fill="#11100f"/>
+  <circle cx="196.0" cy="392.9" r="1.91" fill="#11100f"/>
+  <circle cx="247.9" cy="116.4" r="1.88" fill="#11100f"/>
+  <circle cx="276.9" cy="164.2" r="1.82" fill="#11100f"/>
+  <circle cx="593.4" cy="300.8" r="1.78" fill="#11100f"/>
+  <circle cx="541.8" cy="299.3" r="1.77" fill="#11100f"/>
+  <circle cx="294.2" cy="128.9" r="1.75" fill="#11100f"/>
+  <circle cx="137.5" cy="422.3" r="1.74" fill="#11100f"/>
+  <circle cx="407.1" cy="55.9" r="1.70" fill="#11100f"/>
+  <circle cx="186.6" cy="323.5" r="1.68" fill="#11100f"/>
+  <circle cx="450.2" cy="313.8" r="1.67" fill="#11100f"/>
+  <circle cx="594.3" cy="303.3" r="1.67" fill="#11100f"/>
+  <circle cx="414.9" cy="192.0" r="1.65" fill="#11100f"/>
+  <circle cx="216.7" cy="286.7" r="1.63" fill="#11100f"/>
+  <circle cx="577.0" cy="145.9" r="1.62" fill="#11100f"/>
+  <circle cx="175.5" cy="410.5" r="1.60" fill="#11100f"/>
+  <circle cx="61.0" cy="263.9" r="1.60" fill="#11100f"/>
+  <circle cx="613.9" cy="206.5" r="1.59" fill="#11100f"/>
+  <circle cx="192.1" cy="149.2" r="1.58" fill="#11100f"/>
+  <circle cx="335.6" cy="334.5" r="1.57" fill="#11100f"/>
+  <circle cx="436.2" cy="226.2" r="1.55" fill="#11100f"/>
+  <circle cx="522.5" cy="232.0" r="1.54" fill="#11100f"/>
+  <circle cx="96.5" cy="497.4" r="1.51" fill="#11100f"/>
+  <circle cx="413.0" cy="70.9" r="1.48" fill="#11100f"/>
+  <circle cx="521.4" cy="571.0" r="1.47" fill="#11100f"/>
+  <circle cx="653.0" cy="605.1" r="1.46" fill="#11100f"/>
+  <circle cx="465.5" cy="226.5" r="1.44" fill="#11100f"/>
+  <circle cx="555.7" cy="422.7" r="1.44" fill="#11100f"/>
+  <circle cx="97.9" cy="528.7" r="1.42" fill="#11100f"/>
+  <circle cx="366.4" cy="448.8" r="1.38" fill="#11100f"/>
+  <circle cx="522.4" cy="76.0" r="1.38" fill="#11100f"/>
+  <circle cx="134.9" cy="353.6" r="1.33" fill="#11100f"/>
+  
+  
+  <text x="280.2" y="480.6" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">alpha</text>
+  <text x="234.1" y="417.9" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">beta</text>
+  <text x="334.3" y="491.6" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">gamma</text>
+  <text x="434.0" y="476.3" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">epsilon</text>
+  <text x="380.3" y="497.5" fill="#43382e" font-family="Helvetica, Arial, sans-serif" font-size="9">delta</text>
+  <text x="24" y="42" fill="#171412" font-family="Georgia, serif" font-size="26" font-weight="700">Northern Crown</text>
+  <text x="24" y="64" fill="#695a4d" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.3">CrB · stars, IAU boundaries, Messier objects</text>
+</svg>

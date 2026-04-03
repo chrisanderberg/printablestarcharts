@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "pup",
+  "iauCode": "Pup",
+  "slug": "poop-deck",
+  "name": "Poop Deck",
+  "title": "Poop Deck",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 7.27,
+    "centerDecDeg": -31,
+    "radiusDeg": 28.1
+  },
+  "counts": {
+    "stars": 145,
+    "messier": 6,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/pup/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/pup/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m47",
+      "label": "M47",
+      "type": "messier"
+    },
+    {
+      "id": "m41",
+      "label": "M41",
+      "type": "messier"
+    },
+    {
+      "id": "m48",
+      "label": "M48",
+      "type": "messier"
+    },
+    {
+      "id": "m50",
+      "label": "M50",
+      "type": "messier"
+    },
+    {
+      "id": "m46",
+      "label": "M46",
+      "type": "messier"
+    },
+    {
+      "id": "m93",
+      "label": "M93",
+      "type": "messier"
+    }
+  ]
+}

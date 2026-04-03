@@ -1,0 +1,21 @@
+@media print {
+  .site-header,
+  .site-footer,
+  .btn-row,
+  .night-toggle,
+  .catalog__controls,
+  .resolver__form,
+  .target-manager__input-row,
+  nav {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .page-section {
+    padding: 0;
+  }
+}

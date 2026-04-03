@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cyg",
+  "iauCode": "Cyg",
+  "slug": "swan",
+  "name": "Swan",
+  "title": "Swan",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -3.41,
+    "centerDecDeg": 44.55,
+    "radiusDeg": 24.8
+  },
+  "counts": {
+    "stars": 137,
+    "messier": 5,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cyg/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cyg/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m39",
+      "label": "M39",
+      "type": "messier"
+    },
+    {
+      "id": "m29",
+      "label": "M29",
+      "type": "messier"
+    },
+    {
+      "id": "m27",
+      "label": "M27",
+      "type": "messier"
+    },
+    {
+      "id": "m56",
+      "label": "M56",
+      "type": "messier"
+    },
+    {
+      "id": "m57",
+      "label": "M57",
+      "type": "messier"
+    }
+  ]
+}

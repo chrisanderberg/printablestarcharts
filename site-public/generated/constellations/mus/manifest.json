@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "mus",
+  "iauCode": "Mus",
+  "slug": "fly",
+  "name": "Fly",
+  "title": "Fly",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -11.41,
+    "centerDecDeg": -70.16,
+    "radiusDeg": 13.5
+  },
+  "counts": {
+    "stars": 31,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/mus/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/mus/thumb.svg"
+  },
+  "includedTargets": []
+}

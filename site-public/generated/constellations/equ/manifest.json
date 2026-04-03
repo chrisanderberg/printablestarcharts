@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "equ",
+  "iauCode": "Equ",
+  "slug": "colt",
+  "name": "Colt",
+  "title": "Colt",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -2.81,
+    "centerDecDeg": 7.76,
+    "radiusDeg": 13.3
+  },
+  "counts": {
+    "stars": 11,
+    "messier": 2,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/equ/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/equ/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m15",
+      "label": "M15",
+      "type": "messier"
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "type": "messier"
+    }
+  ]
+}

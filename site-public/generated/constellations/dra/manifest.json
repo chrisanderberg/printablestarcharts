@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "dra",
+  "iauCode": "Dra",
+  "slug": "dragon",
+  "name": "Dragon",
+  "title": "Dragon",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -8.86,
+    "centerDecDeg": 67.01,
+    "radiusDeg": 27.5
+  },
+  "counts": {
+    "stars": 121,
+    "messier": 14,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/dra/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/dra/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m39",
+      "label": "M39",
+      "type": "messier"
+    },
+    {
+      "id": "m92",
+      "label": "M92",
+      "type": "messier"
+    },
+    {
+      "id": "m81",
+      "label": "M81",
+      "type": "messier"
+    },
+    {
+      "id": "m101",
+      "label": "M101",
+      "type": "messier"
+    },
+    {
+      "id": "m40",
+      "label": "M40",
+      "type": "messier"
+    },
+    {
+      "id": "m51",
+      "label": "M51",
+      "type": "messier"
+    },
+    {
+      "id": "m94",
+      "label": "M94",
+      "type": "messier"
+    },
+    {
+      "id": "m106",
+      "label": "M106",
+      "type": "messier"
+    },
+    {
+      "id": "m82",
+      "label": "M82",
+      "type": "messier"
+    },
+    {
+      "id": "m63",
+      "label": "M63",
+      "type": "messier"
+    },
+    {
+      "id": "m109",
+      "label": "M109",
+      "type": "messier"
+    },
+    {
+      "id": "m102",
+      "label": "M102",
+      "type": "messier"
+    },
+    {
+      "id": "m108",
+      "label": "M108",
+      "type": "messier"
+    },
+    {
+      "id": "m97",
+      "label": "M97",
+      "type": "messier"
+    }
+  ]
+}

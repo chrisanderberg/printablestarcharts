@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "lyn",
+  "iauCode": "Lyn",
+  "slug": "lynx",
+  "name": "Lynx",
+  "title": "Lynx",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 7.99,
+    "centerDecDeg": 47.47,
+    "radiusDeg": 22.5
+  },
+  "counts": {
+    "stars": 60,
+    "messier": 1,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/lyn/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/lyn/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m37",
+      "label": "M37",
+      "type": "messier"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { loadConstellations } from '../lib/artifacts/loadConstellations';
+import { loadPlanispheres } from '../lib/artifacts/loadPlanispheres';
+import { loadTargets } from '../lib/artifacts/loadTargets';
+import { withBasePath } from '../lib/site';
+
+const constellations = await loadConstellations();
+const planispheres = await loadPlanispheres();
+const canonicalTargets = await loadTargets();
+
+const previewConstellation =
+  constellations.find((c) => c.id === 'ori') ?? constellations[0];
+const previewPlanisphere =
+  planispheres.find((p) => p.latitudeBand === 45 && p.utcOffsetMinutes === -480) ??
+  planispheres[0];
+const latitudeBandCount = new Set(planispheres.map((p) => p.latitudeBand)).size;
+const base = import.meta.env.BASE_URL;
+---
+
+<SiteLayout
+  title="printablestarcharts"
+  description="Print-first star charts, constellation sheets, and a book-style planisphere built for field use under red light."
+>
+  <!-- Hero -->
+  <section class="home-hero">
+    <div class="container home-hero__inner">
+      <span class="eyebrow">MVP live</span>
+      <h1 class="home-hero__title">Star charts<br />designed for<br />printing.</h1>
+      <p class="home-hero__lede muted">
+        Black toner on white paper. Strict red-on-black in Night Mode. All 88 IAU constellation
+        sheets and a latitude-resolved planisphere book, ready to download and print.
+      </p>
+      <div class="btn-row">
+        <a class="btn" href={`${base}constellations/`}>Browse 88 charts</a>
+        <a class="btn--ghost" href={`${base}planisphere/`}>Build a planisphere</a>
+      </div>
+      <div class="home-hero__stats">
+        <div class="stat">
+          <span class="stat__value">{constellations.length}</span>
+          <span class="stat__label">constellation PDFs</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">{latitudeBandCount}</span>
+          <span class="stat__label">latitude bands</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">{canonicalTargets.length}</span>
+          <span class="stat__label">Messier targets</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chart showcase -->
+  <section class="home-showcase">
+    <div class="container home-showcase__grid">
+      <div class="home-showcase__item">
+        <div class="home-showcase__frame">
+          {
+            previewConstellation.files.thumbnailSvg ? (
+              <img
+                src={withBasePath(base, previewConstellation.files.thumbnailSvg)}
+                alt={`${previewConstellation.name} chart preview`}
+              />
+            ) : null
+          }
+        </div>
+        <div class="home-showcase__caption">
+          <span class="eyebrow">Constellation chart</span>
+          <p class="muted">
+            {previewConstellation.name} — letter-sized PDF with dotted IAU boundaries, real stars,
+            and Messier objects.
+          </p>
+          <a
+            href={`${base}constellations/${previewConstellation.routeSlug}/`}
+            class="home-showcase__link"
+          >
+            View chart →
+          </a>
+        </div>
+      </div>
+
+      <div class="home-showcase__item">
+        <div class="home-showcase__frame home-showcase__frame--planisphere">
+          {
+            previewPlanisphere.files.thumbnailSvg ? (
+              <img
+                src={withBasePath(base, previewPlanisphere.files.thumbnailSvg)}
+                alt="Planisphere preview"
+              />
+            ) : null
+          }
+        </div>
+        <div class="home-showcase__caption">
+          <span class="eyebrow">Planisphere book</span>
+          <p class="muted">
+            Circular horizon view — 48 LST pages for your latitude, resolved from location and
+            timezone.
+          </p>
+          <a href={`${base}planisphere/`} class="home-showcase__link">Build yours →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools -->
+  <section class="home-tools">
+    <div class="container">
+      <div class="home-tools__header">
+        <span class="eyebrow">Three tools</span>
+        <h2>Print-friendly by default, night-safe when a screen is unavoidable</h2>
+      </div>
+      <div class="grid-3">
+        <a class="home-tool-card" href={`${base}constellations/`}>
+          <h3>Constellation atlas</h3>
+          <p class="muted">
+            All 88 IAU constellations as static PDF charts with official boundaries, real stars,
+            and Messier highlights.
+          </p>
+          <span class="home-tool-card__link">Browse charts →</span>
+        </a>
+        <a class="home-tool-card" href={`${base}planisphere/`}>
+          <h3>Planisphere books</h3>
+          <p class="muted">
+            Book-style horizon charts resolved from your latitude, longitude, and timezone.
+            50-page printable PDF.
+          </p>
+          <span class="home-tool-card__link">Resolve location →</span>
+        </a>
+        <a class="home-tool-card" href={`${base}targets/`}>
+          <h3>Pinned targets</h3>
+          <p class="muted">
+            Pin Messier targets to sort constellation charts by relevance and check planisphere
+            artifact compatibility.
+          </p>
+          <span class="home-tool-card__link">Manage targets →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</SiteLayout>
+
+<style>
+  /* ---- Hero ---- */
+  .home-hero {
+    padding: 6rem 0 5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .home-hero__inner {
+    max-width: 54rem;
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .home-hero__title {
+    font-size: clamp(3.5rem, 8vw, 7.5rem);
+    line-height: 0.97;
+    letter-spacing: -0.03em;
+  }
+
+  .home-hero__lede {
+    font-size: 1.08rem;
+    max-width: 38rem;
+    line-height: 1.65;
+  }
+
+  .home-hero__stats {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+
+  .home-hero__stats .stat {
+    padding: 0 2.5rem 0 0;
+  }
+
+  .home-hero__stats .stat + .stat {
+    padding: 0 2.5rem;
+    border-left: 1px solid var(--line);
+  }
+
+  /* ---- Showcase ---- */
+  .home-showcase {
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .home-showcase__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .home-showcase__frame {
+    background: var(--chart-bg);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .home-showcase__frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  html[data-theme='night'] .home-showcase__frame img {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(93%) saturate(3342%)
+      hue-rotate(347deg) brightness(110%) contrast(98%);
+  }
+
+  .home-showcase__caption {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .home-showcase__caption p {
+    font-size: 0.9rem;
+  }
+
+  .home-showcase__link {
+    font-size: 0.875rem;
+    color: var(--accent);
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity 120ms;
+  }
+
+  .home-showcase__link:hover {
+    opacity: 0.75;
+  }
+
+  /* ---- Tools ---- */
+  .home-tools {
+    padding: 5rem 0;
+  }
+
+  .home-tools__header {
+    margin-bottom: 2.5rem;
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .home-tools__header h2 {
+    max-width: 34rem;
+  }
+
+  .home-tool-card {
+    display: grid;
+    gap: 0.7rem;
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--paper-strong);
+    text-decoration: none;
+    color: inherit;
+    transition:
+      border-color 140ms,
+      transform 140ms;
+    align-content: start;
+  }
+
+  .home-tool-card:hover {
+    border-color: var(--line-strong);
+    transform: translateY(-2px);
+  }
+
+  .home-tool-card h3 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .home-tool-card p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+
+  .home-tool-card__link {
+    font-size: 0.82rem;
+    color: var(--accent);
+    font-weight: 500;
+    margin-top: 0.25rem;
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 900px) {
+    .home-showcase__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-showcase__frame {
+      max-width: 28rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .home-hero {
+      padding: 3.5rem 0 3.5rem;
+    }
+
+    .home-hero__title {
+      font-size: clamp(3rem, 14vw, 5.5rem);
+    }
+
+    .home-hero__stats .stat,
+    .home-hero__stats .stat + .stat {
+      padding: 0.5rem 1.5rem 0.5rem 0;
+      border-left: none;
+    }
+  }
+</style>

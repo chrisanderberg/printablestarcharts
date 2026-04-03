@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "men",
+  "iauCode": "Men",
+  "slug": "mensa",
+  "name": "Mensa",
+  "title": "Mensa",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 5.41,
+    "centerDecDeg": -77.5,
+    "radiusDeg": 15.8
+  },
+  "counts": {
+    "stars": 15,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/men/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/men/thumb.svg"
+  },
+  "includedTargets": []
+}

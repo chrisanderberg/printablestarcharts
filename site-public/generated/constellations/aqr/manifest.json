@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "aqr",
+  "iauCode": "Aqr",
+  "slug": "aquarius",
+  "name": "Aquarius",
+  "title": "Aquarius",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -1.67,
+    "centerDecDeg": -11,
+    "radiusDeg": 22.3
+  },
+  "counts": {
+    "stars": 99,
+    "messier": 5,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/aqr/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/aqr/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m2",
+      "label": "M2",
+      "type": "messier"
+    },
+    {
+      "id": "m30",
+      "label": "M30",
+      "type": "messier"
+    },
+    {
+      "id": "m75",
+      "label": "M75",
+      "type": "messier"
+    },
+    {
+      "id": "m72",
+      "label": "M72",
+      "type": "messier"
+    },
+    {
+      "id": "m73",
+      "label": "M73",
+      "type": "messier"
+    }
+  ]
+}

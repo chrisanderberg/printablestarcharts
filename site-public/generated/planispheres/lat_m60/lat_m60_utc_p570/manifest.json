@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "planisphere-book",
+  "id": "lat_m60_utc_p570",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "locationModel": {
+    "latitudeBand": -60,
+    "utcOffsetMinutes": 570,
+    "timezoneLabel": "UTC+09:30",
+    "resolutionPolicy": "nearest-supported"
+  },
+  "page": {
+    "size": "letter",
+    "orientation": "portrait",
+    "pageCount": 50
+  },
+  "files": {
+    "pdf": "/generated/planispheres/lat_m60/book.pdf",
+    "thumbnailSvg": "/generated/planispheres/lat_m60/thumb.svg"
+  },
+  "supportedForcedTargets": [
+    "m13",
+    "m31",
+    "m42",
+    "m45",
+    "m51",
+    "m57",
+    "m81",
+    "m82",
+    "m104"
+  ]
+}

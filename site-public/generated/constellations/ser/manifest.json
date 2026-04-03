@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "ser",
+  "iauCode": "Ser",
+  "slug": "serpent",
+  "name": "Serpent",
+  "title": "Serpent",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -6.93,
+    "centerDecDeg": 5,
+    "radiusDeg": 29.1
+  },
+  "counts": {
+    "stars": 65,
+    "messier": 19,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/ser/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/ser/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m24",
+      "label": "M24",
+      "type": "messier"
+    },
+    {
+      "id": "m25",
+      "label": "M25",
+      "type": "messier"
+    },
+    {
+      "id": "m23",
+      "label": "M23",
+      "type": "messier"
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "type": "messier"
+    },
+    {
+      "id": "m11",
+      "label": "M11",
+      "type": "messier"
+    },
+    {
+      "id": "m21",
+      "label": "M21",
+      "type": "messier"
+    },
+    {
+      "id": "m16",
+      "label": "M16",
+      "type": "messier"
+    },
+    {
+      "id": "m10",
+      "label": "M10",
+      "type": "messier"
+    },
+    {
+      "id": "m12",
+      "label": "M12",
+      "type": "messier"
+    },
+    {
+      "id": "m18",
+      "label": "M18",
+      "type": "messier"
+    },
+    {
+      "id": "m17",
+      "label": "M17",
+      "type": "messier"
+    },
+    {
+      "id": "m80",
+      "label": "M80",
+      "type": "messier"
+    },
+    {
+      "id": "m14",
+      "label": "M14",
+      "type": "messier"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "type": "messier"
+    },
+    {
+      "id": "m26",
+      "label": "M26",
+      "type": "messier"
+    },
+    {
+      "id": "m107",
+      "label": "M107",
+      "type": "messier"
+    },
+    {
+      "id": "m56",
+      "label": "M56",
+      "type": "messier"
+    },
+    {
+      "id": "m20",
+      "label": "M20",
+      "type": "messier"
+    },
+    {
+      "id": "m57",
+      "label": "M57",
+      "type": "messier"
+    }
+  ]
+}

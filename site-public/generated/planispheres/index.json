@@ -1,0 +1,3345 @@
+{
+  "schemaVersion": "1",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "items": [
+    {
+      "id": "lat_m60_utc_m720",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m690",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m660",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m630",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m600",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m570",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m540",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m510",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m480",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m450",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m420",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m390",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m360",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m330",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m300",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m270",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m240",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m210",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m180",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m150",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m120",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m90",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m60",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_m30",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p0",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p30",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p60",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p90",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p120",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p150",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p180",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p210",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p240",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p270",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p300",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p330",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p360",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p390",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p420",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p450",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p480",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p510",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p540",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p570",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p600",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p630",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p660",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p690",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p720",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p750",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p780",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p810",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_m60_utc_p840",
+      "latitudeBand": -60,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_m60/lat_m60_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m720",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m690",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m660",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m630",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m600",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m570",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m540",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m510",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m480",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m450",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m420",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m390",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m360",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m330",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m300",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m270",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m240",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m210",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m180",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m150",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m120",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m90",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m60",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_m30",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p0",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p30",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p60",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p90",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p120",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p150",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p180",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p210",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p240",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p270",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p300",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p330",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p360",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p390",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p420",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p450",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p480",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p510",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p540",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p570",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p600",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p630",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p660",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p690",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p720",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p750",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p780",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p810",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_m45_utc_p840",
+      "latitudeBand": -45,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_m45/lat_m45_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m720",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m690",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m660",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m630",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m600",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m570",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m540",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m510",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m480",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m450",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m420",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m390",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m360",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m330",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m300",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m270",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m240",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m210",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m180",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m150",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m120",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m90",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m60",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_m30",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p0",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p30",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p60",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p90",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p120",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p150",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p180",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p210",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p240",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p270",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p300",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p330",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p360",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p390",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p420",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p450",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p480",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p510",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p540",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p570",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p600",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p630",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p660",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p690",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p720",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p750",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p780",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p810",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_m30_utc_p840",
+      "latitudeBand": -30,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_m30/lat_m30_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m720",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m690",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m660",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m630",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m600",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m570",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m540",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m510",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m480",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m450",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m420",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m390",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m360",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m330",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m300",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m270",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m240",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m210",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m180",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m150",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m120",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m90",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m60",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_m30",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p0",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p30",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p60",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p90",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p120",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p150",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p180",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p210",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p240",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p270",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p300",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p330",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p360",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p390",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p420",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p450",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p480",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p510",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p540",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p570",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p600",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p630",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p660",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p690",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p720",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p750",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p780",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p810",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_m15_utc_p840",
+      "latitudeBand": -15,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_m15/lat_m15_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m720",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m690",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m660",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m630",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m600",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m570",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m540",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m510",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m480",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m450",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m420",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m390",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m360",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m330",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m300",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m270",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m240",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m210",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m180",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m150",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m120",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m90",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m60",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_m30",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p0",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p30",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p60",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p90",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p120",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p150",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p180",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p210",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p240",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p270",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p300",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p330",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p360",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p390",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p420",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p450",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p480",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p510",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p540",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p570",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p600",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p630",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p660",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p690",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p720",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p750",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p780",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p810",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_p0_utc_p840",
+      "latitudeBand": 0,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_p0/lat_p0_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m720",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m690",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m660",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m630",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m600",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m570",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m540",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m510",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m480",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m450",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m420",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m390",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m360",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m330",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m300",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m270",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m240",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m210",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m180",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m150",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m120",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m90",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m60",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_m30",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p0",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p30",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p60",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p90",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p120",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p150",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p180",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p210",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p240",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p270",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p300",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p330",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p360",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p390",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p420",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p450",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p480",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p510",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p540",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p570",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p600",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p630",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p660",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p690",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p720",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p750",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p780",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p810",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_p15_utc_p840",
+      "latitudeBand": 15,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_p15/lat_p15_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m720",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m690",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m660",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m630",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m600",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m570",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m540",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m510",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m480",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m450",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m420",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m390",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m360",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m330",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m300",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m270",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m240",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m210",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m180",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m150",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m120",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m90",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m60",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_m30",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p0",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p30",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p60",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p90",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p120",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p150",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p180",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p210",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p240",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p270",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p300",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p330",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p360",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p390",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p420",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p450",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p480",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p510",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p540",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p570",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p600",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p630",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p660",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p690",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p720",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p750",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p780",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p810",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_p30_utc_p840",
+      "latitudeBand": 30,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_p30/lat_p30_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m720",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m690",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m660",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m630",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m600",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m570",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m540",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m510",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m480",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m450",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m420",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m390",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m360",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m330",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m300",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m270",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m240",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m210",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m180",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m150",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m120",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m90",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m60",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_m30",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p0",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p30",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p60",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p90",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p120",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p150",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p180",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p210",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p240",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p270",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p300",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p330",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p360",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p390",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p420",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p450",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p480",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p510",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p540",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p570",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p600",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p630",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p660",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p690",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p720",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p750",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p780",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p810",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_p45_utc_p840",
+      "latitudeBand": 45,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_p45/lat_p45_utc_p840/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m720",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -720,
+      "timezoneLabel": "UTC-12:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m720/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m690",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -690,
+      "timezoneLabel": "UTC-11:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m690/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m660",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -660,
+      "timezoneLabel": "UTC-11:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m660/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m630",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -630,
+      "timezoneLabel": "UTC-10:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m630/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m600",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -600,
+      "timezoneLabel": "UTC-10:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m600/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m570",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -570,
+      "timezoneLabel": "UTC-09:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m570/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m540",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -540,
+      "timezoneLabel": "UTC-09:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m540/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m510",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -510,
+      "timezoneLabel": "UTC-08:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m510/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m480",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -480,
+      "timezoneLabel": "UTC-08:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m480/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m450",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -450,
+      "timezoneLabel": "UTC-07:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m450/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m420",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -420,
+      "timezoneLabel": "UTC-07:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m420/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m390",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -390,
+      "timezoneLabel": "UTC-06:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m390/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m360",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -360,
+      "timezoneLabel": "UTC-06:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m360/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m330",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -330,
+      "timezoneLabel": "UTC-05:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m330/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m300",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -300,
+      "timezoneLabel": "UTC-05:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m300/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m270",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -270,
+      "timezoneLabel": "UTC-04:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m270/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m240",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -240,
+      "timezoneLabel": "UTC-04:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m240/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m210",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -210,
+      "timezoneLabel": "UTC-03:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m210/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m180",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -180,
+      "timezoneLabel": "UTC-03:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m180/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m150",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -150,
+      "timezoneLabel": "UTC-02:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m150/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m120",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -120,
+      "timezoneLabel": "UTC-02:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m120/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m90",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -90,
+      "timezoneLabel": "UTC-01:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m90/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m60",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -60,
+      "timezoneLabel": "UTC-01:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m60/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_m30",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": -30,
+      "timezoneLabel": "UTC-00:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_m30/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p0",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 0,
+      "timezoneLabel": "UTC+00:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p0/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p30",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 30,
+      "timezoneLabel": "UTC+00:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p30/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p60",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 60,
+      "timezoneLabel": "UTC+01:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p60/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p90",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 90,
+      "timezoneLabel": "UTC+01:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p90/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p120",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 120,
+      "timezoneLabel": "UTC+02:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p120/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p150",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 150,
+      "timezoneLabel": "UTC+02:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p150/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p180",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 180,
+      "timezoneLabel": "UTC+03:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p180/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p210",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 210,
+      "timezoneLabel": "UTC+03:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p210/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p240",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 240,
+      "timezoneLabel": "UTC+04:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p240/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p270",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 270,
+      "timezoneLabel": "UTC+04:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p270/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p300",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 300,
+      "timezoneLabel": "UTC+05:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p300/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p330",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 330,
+      "timezoneLabel": "UTC+05:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p330/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p360",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 360,
+      "timezoneLabel": "UTC+06:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p360/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p390",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 390,
+      "timezoneLabel": "UTC+06:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p390/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p420",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 420,
+      "timezoneLabel": "UTC+07:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p420/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p450",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 450,
+      "timezoneLabel": "UTC+07:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p450/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p480",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 480,
+      "timezoneLabel": "UTC+08:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p480/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p510",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 510,
+      "timezoneLabel": "UTC+08:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p510/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p540",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 540,
+      "timezoneLabel": "UTC+09:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p540/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p570",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 570,
+      "timezoneLabel": "UTC+09:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p570/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p600",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 600,
+      "timezoneLabel": "UTC+10:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p600/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p630",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 630,
+      "timezoneLabel": "UTC+10:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p630/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p660",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 660,
+      "timezoneLabel": "UTC+11:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p660/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p690",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 690,
+      "timezoneLabel": "UTC+11:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p690/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p720",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 720,
+      "timezoneLabel": "UTC+12:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p720/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p750",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 750,
+      "timezoneLabel": "UTC+12:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p750/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p780",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 780,
+      "timezoneLabel": "UTC+13:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p780/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p810",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 810,
+      "timezoneLabel": "UTC+13:30",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p810/manifest.json"
+    },
+    {
+      "id": "lat_p60_utc_p840",
+      "latitudeBand": 60,
+      "utcOffsetMinutes": 840,
+      "timezoneLabel": "UTC+14:00",
+      "manifestPath": "/generated/planispheres/lat_p60/lat_p60_utc_p840/manifest.json"
+    }
+  ]
+}

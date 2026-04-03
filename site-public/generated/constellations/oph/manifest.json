@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "oph",
+  "iauCode": "Oph",
+  "slug": "ophiuchus",
+  "name": "Ophiuchus",
+  "title": "Ophiuchus",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": -6.6,
+    "centerDecDeg": -7,
+    "radiusDeg": 31.2
+  },
+  "counts": {
+    "stars": 84,
+    "messier": 27,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/oph/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/oph/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m7",
+      "label": "M7",
+      "type": "messier"
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "type": "messier"
+    },
+    {
+      "id": "m24",
+      "label": "M24",
+      "type": "messier"
+    },
+    {
+      "id": "m25",
+      "label": "M25",
+      "type": "messier"
+    },
+    {
+      "id": "m22",
+      "label": "M22",
+      "type": "messier"
+    },
+    {
+      "id": "m23",
+      "label": "M23",
+      "type": "messier"
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "type": "messier"
+    },
+    {
+      "id": "m11",
+      "label": "M11",
+      "type": "messier"
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "type": "messier"
+    },
+    {
+      "id": "m21",
+      "label": "M21",
+      "type": "messier"
+    },
+    {
+      "id": "m16",
+      "label": "M16",
+      "type": "messier"
+    },
+    {
+      "id": "m10",
+      "label": "M10",
+      "type": "messier"
+    },
+    {
+      "id": "m12",
+      "label": "M12",
+      "type": "messier"
+    },
+    {
+      "id": "m62",
+      "label": "M62",
+      "type": "messier"
+    },
+    {
+      "id": "m18",
+      "label": "M18",
+      "type": "messier"
+    },
+    {
+      "id": "m28",
+      "label": "M28",
+      "type": "messier"
+    },
+    {
+      "id": "m17",
+      "label": "M17",
+      "type": "messier"
+    },
+    {
+      "id": "m19",
+      "label": "M19",
+      "type": "messier"
+    },
+    {
+      "id": "m80",
+      "label": "M80",
+      "type": "messier"
+    },
+    {
+      "id": "m14",
+      "label": "M14",
+      "type": "messier"
+    },
+    {
+      "id": "m54",
+      "label": "M54",
+      "type": "messier"
+    },
+    {
+      "id": "m69",
+      "label": "M69",
+      "type": "messier"
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "type": "messier"
+    },
+    {
+      "id": "m26",
+      "label": "M26",
+      "type": "messier"
+    },
+    {
+      "id": "m70",
+      "label": "M70",
+      "type": "messier"
+    },
+    {
+      "id": "m107",
+      "label": "M107",
+      "type": "messier"
+    },
+    {
+      "id": "m20",
+      "label": "M20",
+      "type": "messier"
+    }
+  ]
+}

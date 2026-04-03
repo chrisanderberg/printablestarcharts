@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "pav",
+  "iauCode": "Pav",
+  "slug": "peacock",
+  "name": "Peacock",
+  "title": "Peacock",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -4.39,
+    "centerDecDeg": -65.78,
+    "radiusDeg": 17.2
+  },
+  "counts": {
+    "stars": 44,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/pav/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/pav/thumb.svg"
+  },
+  "includedTargets": []
+}

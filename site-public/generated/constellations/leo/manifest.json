@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "leo",
+  "iauCode": "Leo",
+  "slug": "lion",
+  "name": "Lion",
+  "title": "Lion",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 10.67,
+    "centerDecDeg": 13,
+    "radiusDeg": 28
+  },
+  "counts": {
+    "stars": 80,
+    "messier": 12,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/leo/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/leo/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m66",
+      "label": "M66",
+      "type": "messier"
+    },
+    {
+      "id": "m85",
+      "label": "M85",
+      "type": "messier"
+    },
+    {
+      "id": "m86",
+      "label": "M86",
+      "type": "messier"
+    },
+    {
+      "id": "m96",
+      "label": "M96",
+      "type": "messier"
+    },
+    {
+      "id": "m65",
+      "label": "M65",
+      "type": "messier"
+    },
+    {
+      "id": "m84",
+      "label": "M84",
+      "type": "messier"
+    },
+    {
+      "id": "m105",
+      "label": "M105",
+      "type": "messier"
+    },
+    {
+      "id": "m100",
+      "label": "M100",
+      "type": "messier"
+    },
+    {
+      "id": "m61",
+      "label": "M61",
+      "type": "messier"
+    },
+    {
+      "id": "m95",
+      "label": "M95",
+      "type": "messier"
+    },
+    {
+      "id": "m99",
+      "label": "M99",
+      "type": "messier"
+    },
+    {
+      "id": "m98",
+      "label": "M98",
+      "type": "messier"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "pyx",
+  "iauCode": "Pyx",
+  "slug": "compass",
+  "name": "Compass",
+  "title": "Compass",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "portrait"
+  },
+  "coverage": {
+    "centerRaHours": 8.95,
+    "centerDecDeg": -27.35,
+    "radiusDeg": 17.9
+  },
+  "counts": {
+    "stars": 18,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/pyx/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/pyx/thumb.svg"
+  },
+  "includedTargets": []
+}

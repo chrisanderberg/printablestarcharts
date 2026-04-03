@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "gru",
+  "iauCode": "Gru",
+  "slug": "crane",
+  "name": "Crane",
+  "title": "Crane",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -1.54,
+    "centerDecDeg": -46.35,
+    "radiusDeg": 18
+  },
+  "counts": {
+    "stars": 39,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/gru/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/gru/thumb.svg"
+  },
+  "includedTargets": []
+}

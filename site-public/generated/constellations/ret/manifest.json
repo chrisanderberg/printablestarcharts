@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "ret",
+  "iauCode": "Ret",
+  "slug": "net",
+  "name": "Net",
+  "title": "Net",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 3.92,
+    "centerDecDeg": -60,
+    "radiusDeg": 15.3
+  },
+  "counts": {
+    "stars": 16,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/ret/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/ret/thumb.svg"
+  },
+  "includedTargets": []
+}

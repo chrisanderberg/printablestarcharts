@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "nor",
+  "iauCode": "Nor",
+  "slug": "level",
+  "name": "Level",
+  "title": "Level",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -8.1,
+    "centerDecDeg": -51.35,
+    "radiusDeg": 17.1
+  },
+  "counts": {
+    "stars": 26,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/nor/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/nor/thumb.svg"
+  },
+  "includedTargets": []
+}

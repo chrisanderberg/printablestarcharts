@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "pic",
+  "iauCode": "Pic",
+  "slug": "painter",
+  "name": "Painter",
+  "title": "Painter",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": 5.71,
+    "centerDecDeg": -53.47,
+    "radiusDeg": 18.7
+  },
+  "counts": {
+    "stars": 23,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/pic/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/pic/thumb.svg"
+  },
+  "includedTargets": []
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "cep",
+  "iauCode": "Cep",
+  "slug": "cepheus",
+  "name": "Cepheus",
+  "title": "Cepheus",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -1.2,
+    "centerDecDeg": 73,
+    "radiusDeg": 27.6
+  },
+  "counts": {
+    "stars": 95,
+    "messier": 6,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/cep/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/cep/thumb.svg"
+  },
+  "includedTargets": [
+    {
+      "id": "m39",
+      "label": "M39",
+      "type": "messier"
+    },
+    {
+      "id": "m81",
+      "label": "M81",
+      "type": "messier"
+    },
+    {
+      "id": "m52",
+      "label": "M52",
+      "type": "messier"
+    },
+    {
+      "id": "m103",
+      "label": "M103",
+      "type": "messier"
+    },
+    {
+      "id": "m82",
+      "label": "M82",
+      "type": "messier"
+    },
+    {
+      "id": "m76",
+      "label": "M76",
+      "type": "messier"
+    }
+  ]
+}

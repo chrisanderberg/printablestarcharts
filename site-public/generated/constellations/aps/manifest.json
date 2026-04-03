@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1",
+  "artifactType": "constellation-chart",
+  "id": "aps",
+  "iauCode": "Aps",
+  "slug": "bird-of-paradise",
+  "name": "Bird of Paradise",
+  "title": "Bird of Paradise",
+  "version": "2026.03-real",
+  "generatedAt": "2026-04-03T21:10:50.712Z",
+  "page": {
+    "size": "letter",
+    "orientation": "landscape"
+  },
+  "coverage": {
+    "centerRaHours": -7.87,
+    "centerDecDeg": -75,
+    "radiusDeg": 16.1
+  },
+  "counts": {
+    "stars": 21,
+    "messier": 0,
+    "forcedTargets": 0
+  },
+  "features": {
+    "iauBoundaries": true,
+    "cardinalMarkers": false
+  },
+  "files": {
+    "pdf": "/generated/constellations/aps/chart.pdf",
+    "thumbnailSvg": "/generated/constellations/aps/thumb.svg"
+  },
+  "includedTargets": []
+}
