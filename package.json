@@ -14,8 +14,6 @@
   "dependencies": {
     "@astrojs/mdx": "^5.0.0",
     "@astrojs/react": "^5.0.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
     "astro": "^6.0.3",
     "d3-celestial": "^0.7.35",
     "react": "^19.2.4",
@@ -23,6 +21,8 @@
   },
   "devDependencies": {
     "@types/node": "^24.7.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "typescript": "^5.9.3"
   }
 }

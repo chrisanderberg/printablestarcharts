@@ -12,6 +12,7 @@ const TARGET_ROOT = path.join(GENERATED_ROOT, 'targets');
 const SUPPORTED_OFFSETS = Array.from({ length: 53 }, (_, index) => -720 + index * 30);
 const LATITUDE_BANDS = [-60, -45, -30, -15, 0, 15, 30, 45, 60];
 const PLANISPHERE_TARGETS = ['m13', 'm31', 'm42', 'm45', 'm51', 'm57', 'm81', 'm82', 'm104'];
+const GENERATED_AT = process.env.GENERATED_AT ?? new Date().toISOString();
 
 function hemisphereBias(polygons) {
   const points = polygons.flat();
@@ -31,9 +32,11 @@ function seasonsForRightAscension(displayCenterRaDeg) {
 
 function pageOrientationForBounds(polygons) {
   const points = polygons.flat();
-  const raValues = points.map((point) => point.raDeg);
+  const raValues = points.map((point) => point.raDeg).sort((left, right) => left - right);
   const decValues = points.map((point) => point.decDeg);
-  const width = Math.max(...raValues) - Math.min(...raValues);
+  const wrapGap = raValues[0] + 360 - raValues[raValues.length - 1];
+  const consecutiveGaps = raValues.slice(1).map((value, index) => value - raValues[index]);
+  const width = 360 - Math.max(...consecutiveGaps, wrapGap);
   const height = Math.max(...decValues) - Math.min(...decValues);
   return height >= width ? 'portrait' : 'landscape';
 }
@@ -64,13 +67,16 @@ async function main() {
 
   const constellationIndex = {
     schemaVersion: '1',
-    generatedAt: '2026-03-31T00:00:00Z',
+    generatedAt: GENERATED_AT,
     items: [],
   };
 
   for (const constellation of constellations) {
     const polygons = constellationBounds.get(constellation.iauCode);
     if (!polygons?.length) {
+      console.warn(
+        `Skipping constellation ${constellation.iauCode} (${constellation.name}): no polygons or bounds found.`,
+      );
       continue;
     }
 
@@ -87,7 +93,7 @@ async function main() {
       name: constellation.name,
       title: constellation.name,
       version: '2026.03-real',
-      generatedAt: '2026-03-31T00:00:00Z',
+      generatedAt: GENERATED_AT,
       page: {
         size: 'letter',
         orientation: pageOrientationForBounds(polygons),
@@ -141,13 +147,13 @@ async function main() {
     .sort((left, right) => Number(left.label.slice(1)) - Number(right.label.slice(1)));
   await writeJson(path.join(TARGET_ROOT, 'index.json'), {
     schemaVersion: '1',
-    generatedAt: '2026-03-31T00:00:00Z',
+    generatedAt: GENERATED_AT,
     items: targets,
   });
 
   const planisphereIndex = {
     schemaVersion: '1',
-    generatedAt: '2026-03-31T00:00:00Z',
+    generatedAt: GENERATED_AT,
     items: [],
   };
 
@@ -156,7 +162,7 @@ async function main() {
     const bandDirectory = path.join(PLANISPHERE_ROOT, `lat_${latitudeSlug}`);
     await ensureDir(bandDirectory);
     await writeFile(path.join(bandDirectory, 'thumb.svg'), createPlanispherePreview(latitudeBand, stars, messierObjects), 'utf8');
-    await writeFile(path.join(bandDirectory, 'book.pdf'), createPlanispherePdf(latitudeBand, stars, messierObjects), 'utf8');
+    await writeFile(path.join(bandDirectory, 'book.pdf'), createPlanispherePdf(latitudeBand, stars, messierObjects));
 
     for (const utcOffsetMinutes of SUPPORTED_OFFSETS) {
       const planisphereId = `lat_${latitudeSlug}_utc_${utcOffsetMinutes >= 0 ? `p${utcOffsetMinutes}` : `m${Math.abs(utcOffsetMinutes)}`}`;
@@ -168,7 +174,7 @@ async function main() {
         artifactType: 'planisphere-book',
         id: planisphereId,
         version: '2026.03-real',
-        generatedAt: '2026-03-31T00:00:00Z',
+        generatedAt: GENERATED_AT,
         locationModel: {
           latitudeBand,
           utcOffsetMinutes,
